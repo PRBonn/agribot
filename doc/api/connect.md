@@ -7,21 +7,21 @@ These instructions are up to guide the user to properly make the connection betw
 ---
 
 ## **Necessary Steps to do**:
-* [Power up the AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#power-up-the-agribot)
+* [Power up the AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#power-up-the-agribot)
 
 --- 
 
 ## Table of Contents
 - [How to Connect to AgriBot]()
-  - [PC Setup](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#pc-setup)
-  	- [Wifi Connection](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#wifi-connection)
-  	- [Ethernet Connection](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#ethernet-connection)
-  - [Bring up](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#bring-up)
-  	- [Log into AgriBot PC using HDMI display](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-hdmi-display)
-  	- [Log into AgriBot PC using SSH connection](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-ssh-connection)
-  	- [Using Screen Tool](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#using-screen-tool)
-  	- [Run the roscore](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#run-the-roscore)
-  	- [Run the Base Controller of AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#run-the-base-controller-of-agribot)
+  - [PC Setup](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#pc-setup)
+  	- [Wifi Connection](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#wifi-connection)
+  	- [Ethernet Connection](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#ethernet-connection)
+  - [Bring up](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#bring-up)
+  	- [Log into AgriBot PC using HDMI display](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-hdmi-display)
+  	- [Log into AgriBot PC using SSH connection](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-ssh-connection)
+  	- [Using Screen Tool](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#using-screen-tool)
+  	- [Run the roscore](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#run-the-roscore)
+  	- [Run the Base Controller of AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#run-the-base-controller-of-agribot)
 
 ---
 
@@ -177,7 +177,7 @@ $ roscore
 
 following command will run all required nodes to record data and drive the robot. 
 
-to run this command in case which you have ran roscore before, open another terminal tab with `<Shift+Ctrl+T>` and follow instruction in part [SSH](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-ssh-connection).
+to run this command in case which you have ran roscore before, open another terminal tab with `<Shift+Ctrl+T>` and follow instruction in part [SSH](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-ssh-connection).
 
 In the new tab enter command below:
 
@@ -187,12 +187,12 @@ $ roslaunch agribot_launch base.launch
 
 If every this is going well and all sensors and actuators are connected and connection are flawless, the terminal will represent below messages.
 
-**`NOTE`** More information about Nodes and launch files are given in [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) section. 
+**`NOTE`** More information about Nodes and launch files are given in [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) section. 
 
 **`NOTE`** if connection between Raspberry Pi and motor drives (from motors) cant be established correctly (in any case of faults in connection or power or etc) relays on the robot will begin to switch on and off and buzzer will make alarm of a continuous sound.
 
 ---
-* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+* [The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
 
 --- 
  by: Alireza Ahmadi                                     

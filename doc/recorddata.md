@@ -3,22 +3,22 @@
 ---
 
 ## Table of Contents
-- [How to Power up the AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#how-to-power-up-the-agribot)
-   - [How to Charge the Agribot](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#how-to-charge-the-agribot)
-- [How to Connect to AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#how-to-connect-to-agribot)
-  - [PC Setup](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#pc-setup)
-  	- [Wifi Connection](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#wifi-connection)
-  	- [Ethernet Connection](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#ethernet-connection)
-  - [Bring up](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#bring-up)
-  	- [Log into AgriBot PC using HDMI display](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#log-into-agribot-pc-using-hdmi-display)
-  	- [Log into AgriBot PC using SSH connection](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#log-into-agribot-pc-using-ssh-connection)
-  	- [Using Screen Tool](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#using-screen-tool)
-  	- [Run the roscore](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#run-the-roscore)
-  	- [Run the Base Controller of AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#run-the-base-controller-of-agribot)
-- [How to Use JoyStick](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#how-to-use-joystick)
-- [Easy Bring up for AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#easy-bring-up-for-agribot)
-- [Record Data](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#how-to-record-data)
-- [How to Turn-Off the robot](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md#how-to-turn-off-the-robot)
+- [How to Power up the AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#how-to-power-up-the-agribot)
+   - [How to Charge the Agribot](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#how-to-charge-the-agribot)
+- [How to Connect to AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#how-to-connect-to-agribot)
+  - [PC Setup](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#pc-setup)
+  	- [Wifi Connection](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#wifi-connection)
+  	- [Ethernet Connection](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#ethernet-connection)
+  - [Bring up](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#bring-up)
+  	- [Log into AgriBot PC using HDMI display](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#log-into-agribot-pc-using-hdmi-display)
+  	- [Log into AgriBot PC using SSH connection](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#log-into-agribot-pc-using-ssh-connection)
+  	- [Using Screen Tool](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#using-screen-tool)
+  	- [Run the roscore](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#run-the-roscore)
+  	- [Run the Base Controller of AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#run-the-base-controller-of-agribot)
+- [How to Use JoyStick](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#how-to-use-joystick)
+- [Easy Bring up for AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#easy-bring-up-for-agribot)
+- [Record Data](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#how-to-record-data)
+- [How to Turn-Off the robot](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md#how-to-turn-off-the-robot)
 
 ---
 
@@ -44,7 +44,7 @@ As robot has two different batteries, it uses two different chargers with socket
 
 You can find more information about the electrical design and connections in
 [Electrical
-Design](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md)
+Design](https://github.com/PRBonn/agribot/blob/master/doc/elec.md)
 
 ---
 
@@ -171,7 +171,7 @@ Special Cases:
 2) If your going use Agribot PC (raspberry pi) as ROS master both IP addresses (`ROS_MASTER_URI` and `ROS_HOSTNAME`) should be set equal to Agribot's IP address.
 
 **`NOTE`**
-In case of hving any problem with network connections check the [Debug The Network Connection](https://github.com/PRBonn/Agribot/blob/master/doc/dedug.md#debug-the-network-connection).
+In case of hving any problem with network connections check the [Debug The Network Connection](https://github.com/PRBonn/agribot/blob/master/doc/dedug.md#debug-the-network-connection).
 
 ---
 
@@ -258,7 +258,7 @@ Now we will run all nodes required to record data and drive the robot.
 
 <!-- to run this command in case which you have run the *roscore* earlier, open
 another terminal tab with `<Shift+Ctrl+T>` and follow instruction in part
-[SSH](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-ssh-connection).
+[SSH](https://github.com/PRBonn/agribot/blob/master/doc/connect.md#log-into-agribot-pc-using-ssh-connection).
  -->
 
 ```
@@ -280,12 +280,12 @@ don't pay attention to it, this is a unsolved package issue from the main develo
 If all the nodes launch without an error, robot is ready to be
 moved/controlled by joystick or some other nodes publishing */cmd_vel* topic.
 
-More information about the packages and launch files are available in [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) section. 
+More information about the packages and launch files are available in [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) section. 
 
 **`NOTE`**
 In case you don't used *base.launch* from *agribot_launch* package, you should
 launch each node separately for sensors and actuators. for more
-information about the *launch* files refer to [*agribot_launch*](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_launch.md)
+information about the *launch* files refer to [*agribot_launch*](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_launch.md)
 
 **`NOTE`**  
 If connection between Raspberry Pi and motor drivers (from motors) couldn't be
@@ -326,7 +326,7 @@ As simple instructions to drive the robot:
 
 **`NOTE`** if you releasing the Steering axis, wheels will go back to central position, similarly for linear velocity axis, robot will move as long as the throttle has some angle. On top of all functionalities Deadman button should always be pressed too.
 
-For more information about joystick refer to [*agribot_joystick*](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_joystick.md)
+For more information about joystick refer to [*agribot_joystick*](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_joystick.md)
 
 ---
 
@@ -354,7 +354,7 @@ The recorded data can be saved either on AgriBot local processor (which only
 contains 32GB of storage) or on the remote PC.
 To ease the recording process you can use a launch file with necessary
 commands located on agribot_launch package. More description in [AgriBot
-Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md)
+Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md)
 section.
 
 More information about recording bag file [ROS bag file](http://wiki.ros.org/rosbag/Commandline)
@@ -382,13 +382,13 @@ sudo poweroff
 ```
 ---
 
-[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
 
 *Section* 
-- [Mechanical Design](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md)
-- [Electrical  Design](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md)
-- [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
-- [Debug](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
+- [Mechanical Design](https://github.com/PRBonn/agribot/blob/master/doc/mec.md)
+- [Electrical  Design](https://github.com/PRBonn/agribot/blob/master/doc/elec.md)
+- [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
+- [Debug](https://github.com/PRBonn/agribot/blob/master/doc/debug.md)
 
 --- 
  by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     

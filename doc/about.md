@@ -18,14 +18,14 @@ During the navigation, the pose estimate of the localization in combination with
 In case of facing any problem don't hesitate to constant me.
 
 ---
-[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
 
 *Section* 
-- [Mechanical Design](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md)
-- [Electrical  Design](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md)
-- [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
-- [Record Data](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md) 
-- [Debug](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
+- [Mechanical Design](https://github.com/PRBonn/agribot/blob/master/doc/mec.md)
+- [Electrical  Design](https://github.com/PRBonn/agribot/blob/master/doc/elec.md)
+- [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
+- [Record Data](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md) 
+- [Debug](https://github.com/PRBonn/agribot/blob/master/doc/debug.md)
 
 --- 
   by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     

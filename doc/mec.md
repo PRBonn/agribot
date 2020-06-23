@@ -3,9 +3,9 @@
 ---
 
 ## Table of Contents
-- [Mechincal Design](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md#mechincal-design)
-  - [AgriBot CAD Model](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md#agribot-cad-model)
-  - [AgriBot Body Dimensions](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md#agribot-body-dimensions)
+- [Mechincal Design](https://github.com/PRBonn/agribot/blob/master/doc/mec.md#mechincal-design)
+  - [AgriBot CAD Model](https://github.com/PRBonn/agribot/blob/master/doc/mec.md#agribot-cad-model)
+  - [AgriBot Body Dimensions](https://github.com/PRBonn/agribot/blob/master/doc/mec.md#agribot-body-dimensions)
 ---
 
 ## Mechincal Design
@@ -38,13 +38,13 @@ AgriBots body has designed upon a basic idea to be rigid enough and flexible to 
 * Wright: about 35kg
 
 ---
-[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
 
 *Section* 
-- [Electrical  Design](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md)
-- [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
-- [Easy Bring up & Record Data](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md) 
-- [Debug](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
+- [Electrical  Design](https://github.com/PRBonn/agribot/blob/master/doc/elec.md)
+- [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
+- [Easy Bring up & Record Data](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md) 
+- [Debug](https://github.com/PRBonn/agribot/blob/master/doc/debug.md)
 
 
 ---

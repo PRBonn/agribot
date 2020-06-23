@@ -45,8 +45,8 @@ Services:
 And */mocap* frame has a static link to */map* with a relative shift to set the origins together. the link is defined in the */mocap.launch*.
 
 --- 
-* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
 
 --- 
  by: Alireza Ahmadi                                     

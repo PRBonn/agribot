@@ -30,7 +30,7 @@ $ roslaunch agribot_gazebo agribot_sb_farm.launch
 
 the launch file is taking the configuration of an empty world which is a default layer in gazebo environment and then makes the farm model on top of it. also, with given coordinates spawns the robot too. 
 
-**`NOTE`** the description of the robot is loading from `agribot_control` package which contains the controllers and main description of the robot in format of URDF and XACRO files. for more information visit [agribot_control](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_control.md)
+**`NOTE`** the description of the robot is loading from `agribot_control` package which contains the controllers and main description of the robot in format of URDF and XACRO files. for more information visit [agribot_control](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_control.md)
 
 
 ```xml
@@ -68,8 +68,8 @@ the launch file is taking the configuration of an empty world which is a default
 ```
 
 --- 
-* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
 
 --- 
  by: Alireza Ahmadi                                     

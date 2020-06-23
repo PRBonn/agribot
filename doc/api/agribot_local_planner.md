@@ -21,7 +21,7 @@ As Robot moves on the track the odometric errors can disturb the traversing path
 When a temporary goal gets selected by the DWA method, both linear and orientation wise errors get computed. The linear error is the distance between current position of the robot to the selected temporary goal. Also, the orientation error defines to cover the angle between the current robots heading and the line drawn from the center of the robot to the next goal. Then, a PID controller aims to minimize the orientation error. Also, another PID instance as a linear controller is used to get the robot closer to the goal to minimize the distance error. 
 
 ## How to launch *agribot_local_planner*
-As local planner is an implementation of a plug-in dependent of [*move_base*](http://wiki.ros.org/move_base) package, it will show up in the launch file, where we launch the *move_base* core in the [*agribot_navigation*](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_navigation.md)package.
+As local planner is an implementation of a plug-in dependent of [*move_base*](http://wiki.ros.org/move_base) package, it will show up in the launch file, where we launch the *move_base* core in the [*agribot_navigation*](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_navigation.md)package.
 
 ```xml
 <?xml version="1.0"?>
@@ -49,8 +49,8 @@ As local planner is an implementation of a plug-in dependent of [*move_base*](ht
 * Also it uses [*Dynamic_reconfigure*](http://wiki.ros.org/dynamic_reconfigure) which, provides access to defined parameters at the run-time. 
 
 --- 
-* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md)
+* [The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md)
 
 --- 
  by: Alireza Ahmadi                                     

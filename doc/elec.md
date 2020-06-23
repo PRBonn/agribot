@@ -10,18 +10,18 @@
 ---
 
 ## Table of Contents
-- [Electrical Design](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#electrical-design)
-  - [Power UP the AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#power-up-the-agribot)
-  	- [Logic level Battery](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#logic-level-battery)
-  	- [High level Battery](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#high-level-battery)
-    - [How to Charge the Agribot](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#how-to-charge-the-agribot)
-  - [Power Management Part](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#power-management-part)
-  - [Serial Communication, I/O Pins](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#serial-communication-io-pins)
-  	- [IMU node Connection](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#imu-connection)
-  	- [RearServo's Connections](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#rearservos-connections)
-  	- [Front Actuators Connections](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#front-actuators)
-  - [Reset Relays](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#reset-relays)
-  - [Alarm](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md#alarms)
+- [Electrical Design](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#electrical-design)
+  - [Power UP the AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#power-up-the-agribot)
+  	- [Logic level Battery](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#logic-level-battery)
+  	- [High level Battery](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#high-level-battery)
+    - [How to Charge the Agribot](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#how-to-charge-the-agribot)
+  - [Power Management Part](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#power-management-part)
+  - [Serial Communication, I/O Pins](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#serial-communication-io-pins)
+  	- [IMU node Connection](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#imu-connection)
+  	- [RearServo's Connections](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#rearservos-connections)
+  	- [Front Actuators Connections](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#front-actuators)
+  - [Reset Relays](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#reset-relays)
+  - [Alarm](https://github.com/PRBonn/agribot/blob/master/doc/elec.md#alarms)
 
 ---
 
@@ -110,7 +110,7 @@ Some equipments like IMU, Drivers and Reset relays are connected to reaspberry p
 <div align="center"><img src="/doc/images/gpoio_rasp.png" alt="raspberrypigpio" width="400" title="raspberry"/></div>
 
 ### IMU Connection
-IMU node as its completely explained in [agribot_imu](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md) section is an Embedded-ROS node which uses an *Arduino-ProMicro* board to read the sensor and publish the topic */imu* in network. its connection is shown in image below:
+IMU node as its completely explained in [agribot_imu](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md) section is an Embedded-ROS node which uses an *Arduino-ProMicro* board to read the sensor and publish the topic */imu* in network. its connection is shown in image below:
 
 <div align="center"><img src="/doc/images/uart_imu.png" alt="BMS" width="400" title="BMS"/></div>
 
@@ -131,7 +131,7 @@ The image below shows all connections related to rear-servos.
   <img src="/doc/images/servocon.png" alt="servocon" width="600" title="servocon"/>
 </div>
 
-To find out more about the controller node please visit [agribot_servo](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md) package, which tries to explain all the details about connections and controller node.
+To find out more about the controller node please visit [agribot_servo](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_servo.md) package, which tries to explain all the details about connections and controller node.
 
 --- 
 
@@ -153,12 +153,12 @@ The image below shows all connections related to front actuators.
   <img src="/doc/images/md49con.png" alt="md49con" width="600" title="md49con"/>
 </div>
 
-To find out more about the controller node please visit [agribot_base_controller](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_base_controller.md) package, which tries to explain all the details about connections and controller node.
+To find out more about the controller node please visit [agribot_base_controller](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_base_controller.md) package, which tries to explain all the details about connections and controller node.
 
 ---
 
 ## Reset Relays
-As its explained in [agribot_base_controller](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_base_controller.md) in case of occurring any problem in serial communication with actuators (front/back) two relays are utilized to automatically reset the power of drivers and re-establish the connections. this part which contains a relay board is shown in image below:
+As its explained in [agribot_base_controller](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_base_controller.md) in case of occurring any problem in serial communication with actuators (front/back) two relays are utilized to automatically reset the power of drivers and re-establish the connections. this part which contains a relay board is shown in image below:
 
 <div align="center"><img src="/doc/images/relay.png" alt="relay" width="600" title="relay"/></div>
 
@@ -174,21 +174,21 @@ The Alarm code is shown in table below:
 | Type of Alarm  | Repeat-Number | Repeat-Duration(ms) | Error/Notification | How to fix | 
 | --- | --- | --- | --- | --- |
 | Broken | 2 | 300  | Base launched | --- |
-| Continues | -- | -- | Low Battery | [Debug The Power Status](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md#debug-the-power-status) |
-| Broken | 5 | 70  | Serial Communication Error | [Debug The Electrical Connections](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md#debug-the-electrical-connections)
+| Continues | -- | -- | Low Battery | [Debug The Power Status](https://github.com/PRBonn/agribot/blob/master/doc/debug.md#debug-the-power-status) |
+| Broken | 5 | 70  | Serial Communication Error | [Debug The Electrical Connections](https://github.com/PRBonn/agribot/blob/master/doc/debug.md#debug-the-electrical-connections)
 
 Also, a simple log of the error will be printed on the terminal which base is launched.
 
 **`NOTE`** all the connections used to control these part via raspberry pi is illustrated in [Raspberry Pi GPIOs](https://github.com/PRBonn/Agribot/raw/master/doc/images/gpoio_rasp.png)
 
 ---
-[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
 
 *Section* 
-- [Mechanical Design](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md)
-- [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
-- [Easy Bring up & Record Data](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md) 
-- [Debug](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
+- [Mechanical Design](https://github.com/PRBonn/agribot/blob/master/doc/mec.md)
+- [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
+- [Easy Bring up & Record Data](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md) 
+- [Debug](https://github.com/PRBonn/agribot/blob/master/doc/debug.md)
 
 --- 
  by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     

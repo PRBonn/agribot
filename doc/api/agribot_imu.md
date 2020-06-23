@@ -4,11 +4,11 @@
 
 ## Table of Contents
 - How to Use *agribot_imu*
-  - [About the IMU Sensor](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#about-the-imu-sensor-bosch-bno-055-mems-imu-sensor)
-  - [About the agribot_imu package](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#about-the-agribot_imu-package-embedded-ros)
-  - [How to Launch *agribot_imu*](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#how-to-launch-agribot_imu)
-  - [How to Access/Modify Arduino code](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#how-to-accessmodify-arduino-code)
-  - [References](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#references)
+  - [About the IMU Sensor](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md#about-the-imu-sensor-bosch-bno-055-mems-imu-sensor)
+  - [About the agribot_imu package](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md#about-the-agribot_imu-package-embedded-ros)
+  - [How to Launch *agribot_imu*](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md#how-to-launch-agribot_imu)
+  - [How to Access/Modify Arduino code](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md#how-to-accessmodify-arduino-code)
+  - [References](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md#references)
 
 ---
 
@@ -72,7 +72,7 @@ don't pay attention to it, this is a unsolved package issue from the main develo
 ### About the *agribot_imu* package (Embedded-ROS)
 
 **`NOTE`**
-In case which you want to access the IMU data via using AgriBot local processor, you can skip next part and jump to [How to launch *agribot_imu*](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#how-to-launch-agribot_imu).
+In case which you want to access the IMU data via using AgriBot local processor, you can skip next part and jump to [How to launch *agribot_imu*](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_imu.md#how-to-launch-agribot_imu).
 
 In case you want to use the IMU module with another PC, please follow these steps:
 
@@ -136,8 +136,8 @@ You can access the #agribot_imu* code via link below:
 * [AgriBot-IMU code](https://github.com/PRBonn/Agribot/tree/master/code/agribot_imu)
 
 ---
-* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
 
 ---
 ### References

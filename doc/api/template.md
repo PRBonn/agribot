@@ -13,8 +13,8 @@ Need info? Check the [Wiki](https://github.com/PRBonn/Agribot/wikis)
 ---
 
 ## **Necessary Steps to do**:
-* [Power up the AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_joystick.md#about-the-agribot_joy-package)
-* [Connect to AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md)
+* [Power up the AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/api/agribot_joystick.md#about-the-agribot_joy-package)
+* [Connect to AgriBot](https://github.com/PRBonn/agribot/blob/master/doc/connect.md)
 
 ---
 
@@ -73,10 +73,10 @@ The amount to scale the joystick input for the command angular velocity output i
 
 
 --- 
-[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/agribot/blob/master/README.md)
 
 *NEXT STEP:* 
-[AgriBot API](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
+[AgriBot API](https://github.com/PRBonn/agribot/blob/master/doc/api.md) 
 
 
 --- 
