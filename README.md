@@ -35,7 +35,25 @@ instructions to run the robot.
 	Electrical schematics and descriptions about connections and wiring protocols used in the robot.
 - [Debug:](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
 	Debug procedures for common problems.
+	
+---
+## Citation 
+if you use this project in your recent works please reference to our paper by:
+
+```bash
+
+@article{ahmadi2019visual,
+  title={Visual Servoing-based Navigation for Monitoring Row-Crop Fields},
+  author={Ahmadi, Alireza and Nardi, Lorenzo and Chebrolu, Nived and Stachniss, Cyrill},
+  journal={arXiv preprint arXiv:1909.12754},
+  year={2019}
+}
+```
 ---
 
 ## Maintenance
-This repository is maintained by [Alireza Ahmadi](https://github.com/PRBonn). In case of any problems, please don't hesitate to contact me.
+This repository is maintained by [Alireza Ahmadi](https://github.com/alirezaahmadi). In case of any problems, please don't hesitate to contact me.
+
+ Alireza.Ahmadi@uni-bonn.de   
+
+       

@@ -52,11 +52,10 @@ AgriBots body has designed upon a basic idea to be rigid enough and flexible to 
 all files can be found on shared project in AutoCAD cloud repository. in case of any question please contact [Alireza Ahmadi](https://github.com/PRBonn)
 
 --- 
- by: Alireza Ahmadi                                     
+ by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     
  University of Bonn- Robotics & Geodetic Engineering
- 
- Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+
+ Alireza.Ahmadi@uni-bonn.de          
 
 
 

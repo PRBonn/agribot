@@ -44,12 +44,10 @@ Presented packages are developed under ROS platform using C++11, which is using 
 
 
 --- 
- by: Alireza Ahmadi                                     
+ by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     
  University of Bonn- Robotics & Geodetic Engineering
- 
- Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
 
+ Alireza.Ahmadi@uni-bonn.de          
 
 
 

@@ -76,7 +76,7 @@ the launch file is taking the configuration of an empty world which is a default
  University of Bonn- Robotics & Geodetic Engineering
  
  Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+ []()
 
 
 

@@ -57,7 +57,7 @@ As local planner is an implementation of a plug-in dependent of [*move_base*](ht
  University of Bonn- Robotics & Geodetic Engineering
  
  Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+ []()
 
 
 

@@ -77,7 +77,7 @@ The amount to scale the joystick input for the command angular velocity output i
  University of Bonn- Robotics & Geodetic Engineering
  
  Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+ []()
 
 
 

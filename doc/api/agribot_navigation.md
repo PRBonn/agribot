@@ -200,7 +200,7 @@ for more information take a look at [*map_server*](http://wiki.ros.org/map_serve
  University of Bonn- Robotics & Geodetic Engineering
  
  Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+ []()
 
 
 

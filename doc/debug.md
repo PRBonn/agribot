@@ -93,11 +93,10 @@ The most important mechanical parts and connection which can affect the performa
 - [Easy Bring up & Record Data](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md) 
 
 --- 
- by: Alireza Ahmadi                                     
+ by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     
  University of Bonn- Robotics & Geodetic Engineering
- 
- Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+
+ Alireza.Ahmadi@uni-bonn.de          
 
 
 

@@ -191,11 +191,10 @@ Also, a simple log of the error will be printed on the terminal which base is la
 - [Debug](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
 
 --- 
- by: Alireza Ahmadi                                     
+ by: [Alireza Ahmadi](https://github.com/alirezaahmadi)                                     
  University of Bonn- Robotics & Geodetic Engineering
- 
- Alireza.Ahmadi@uni-bonn.de                             
- [](https://www.AlirezaAhmadi.xyz)
+
+ Alireza.Ahmadi@uni-bonn.de          
 
 
 
