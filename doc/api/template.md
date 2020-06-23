@@ -6,15 +6,15 @@
 
 ---
 
-Need info? Check the [Wiki](https://github.com/alirezaahmadi/Agribot/wikis)
- | or [Create an issue](https://github.com/alirezaahmadi/Agribot/issues/new)
- | Check [our project Board](https://github.com/alirezaahmadi/Agribot/boards)
+Need info? Check the [Wiki](https://github.com/PRBonn/Agribot/wikis)
+ | or [Create an issue](https://github.com/PRBonn/Agribot/issues/new)
+ | Check [our project Board](https://github.com/PRBonn/Agribot/boards)
  
 ---
 
 ## **Necessary Steps to do**:
-* [Power up the AgriBot](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_joystick.md#about-the-agribot_joy-package)
-* [Connect to AgriBot](https://github.com/alirezaahmadi/Agribot/blob/master/doc/connect.md)
+* [Power up the AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_joystick.md#about-the-agribot_joy-package)
+* [Connect to AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md)
 
 ---
 
@@ -73,10 +73,10 @@ The amount to scale the joystick input for the command angular velocity output i
 
 
 --- 
-[The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
 
 *NEXT STEP:* 
-[AgriBot API](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
+[AgriBot API](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
 
 
 --- 

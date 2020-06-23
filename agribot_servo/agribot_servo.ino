@@ -3,7 +3,7 @@
 % by: Alireza Ahmadi                                            %
 % University of Bonn- MSc Robotics & Geodetic Engineering       %
 % Alireza.Ahmadi@uni-bonn.de                                    %
-% https://github.com/alirezaahmadi                              %
+% https://github.com/PRBonn                              %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
 #include <ros.h>
 #include <ros/time.h>

@@ -3,9 +3,9 @@
 ---
 
 ## Table of Contents
-- [Mechincal Design](https://github.com/alirezaahmadi/Agribot/blob/master/doc/mec.md#mechincal-design)
-  - [AgriBot CAD Model](https://github.com/alirezaahmadi/Agribot/blob/master/doc/mec.md#agribot-cad-model)
-  - [AgriBot Body Dimensions](https://github.com/alirezaahmadi/Agribot/blob/master/doc/mec.md#agribot-body-dimensions)
+- [Mechincal Design](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md#mechincal-design)
+  - [AgriBot CAD Model](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md#agribot-cad-model)
+  - [AgriBot Body Dimensions](https://github.com/PRBonn/Agribot/blob/master/doc/mec.md#agribot-body-dimensions)
 ---
 
 ## Mechincal Design
@@ -38,18 +38,18 @@ AgriBots body has designed upon a basic idea to be rigid enough and flexible to 
 * Wright: about 35kg
 
 ---
-[The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
+[The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
 
 *Section* 
-- [Electrical  Design](https://github.com/alirezaahmadi/Agribot/blob/master/doc/elec.md)
-- [AgriBot Software](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
-- [Easy Bring up & Record Data](https://github.com/alirezaahmadi/Agribot/blob/master/doc/recorddata.md) 
-- [Debug](https://github.com/alirezaahmadi/Agribot/blob/master/doc/debug.md)
+- [Electrical  Design](https://github.com/PRBonn/Agribot/blob/master/doc/elec.md)
+- [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
+- [Easy Bring up & Record Data](https://github.com/PRBonn/Agribot/blob/master/doc/recorddata.md) 
+- [Debug](https://github.com/PRBonn/Agribot/blob/master/doc/debug.md)
 
 
 ---
 
-all files can be found on shared project in AutoCAD cloud repository. in case of any question please contact [Alireza Ahmadi](https://github.com/alirezaahmadi)
+all files can be found on shared project in AutoCAD cloud repository. in case of any question please contact [Alireza Ahmadi](https://github.com/PRBonn)
 
 --- 
  by: Alireza Ahmadi                                     

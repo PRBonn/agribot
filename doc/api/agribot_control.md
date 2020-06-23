@@ -16,15 +16,15 @@ To launch the agribot_control simply run:
 $ roslaunch agribot_control agribot_rviz.launch
 ```
 
-The other launch file is a controller manager which runs with gazebo and tries to publish and control the status of all active joints loaded into gazebo in run-time. to run this controller first launch [agribot_gazebo](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_gazebo.md) and then used command below:
+The other launch file is a controller manager which runs with gazebo and tries to publish and control the status of all active joints loaded into gazebo in run-time. to run this controller first launch [agribot_gazebo](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_gazebo.md) and then used command below:
 
 ```
 $ roslaunch agribot_control agribot_control.launch
 ```
 
 --- 
-* [The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
-* [AgriBot Softwarea](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+* [AgriBot Softwarea](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
 
 --- 
  by: Alireza Ahmadi                                     

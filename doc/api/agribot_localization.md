@@ -7,8 +7,8 @@
 ---
 
 ## **Necessary Steps to do**:
-* [Power up the AgriBot](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_joystick.md#about-the-agribot_joy-package)
-* [Connect to AgriBot](https://github.com/alirezaahmadi/Agribot/blob/master/doc/connect.md)
+* [Power up the AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_joystick.md#about-the-agribot_joy-package)
+* [Connect to AgriBot](https://github.com/PRBonn/Agribot/blob/master/doc/connect.md)
 
 ---
 
@@ -65,8 +65,8 @@ The amount to scale the joystick input for the command linear velocity output in
 The amount to scale the joystick input for the command angular velocity output in turbo(outdoor) mode.
 
 --- 
-* [The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
 
 --- 
  by: Alireza Ahmadi                                     

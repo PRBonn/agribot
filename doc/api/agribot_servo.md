@@ -4,13 +4,13 @@
 
 ## Table of Contents
 - How to Use *agribot_srvo*
-  - [About AgriBot's Rear Actators](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#about-agribots-rear-actators)
-  - [Electrical Connection to System](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#electrical-connection-to-system)
-  - [Serial to USB Converter](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#serial-to-usb-converter)
-  - [About the agribot_servo package (Embedded-ROS)](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#about-the-agribot_servo-package-embedded-ros)
-  - [How to launch agribot_servo](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#how-to-launch-agribot_servo)
-  - [How to Access/Modify Arduino code](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#how-to-accessmodify-arduino-code)
-  - [References](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_servo.md#references)
+  - [About AgriBot's Rear Actators](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#about-agribots-rear-actators)
+  - [Electrical Connection to System](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#electrical-connection-to-system)
+  - [Serial to USB Converter](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#serial-to-usb-converter)
+  - [About the agribot_servo package (Embedded-ROS)](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#about-the-agribot_servo-package-embedded-ros)
+  - [How to launch agribot_servo](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#how-to-launch-agribot_servo)
+  - [How to Access/Modify Arduino code](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#how-to-accessmodify-arduino-code)
+  - [References](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_servo.md#references)
 
 ---
 
@@ -61,7 +61,7 @@ USB/Serial Converter Turns a USB connection to the 5V TX and RX Arduino requires
 ### About the *agribot_servo* package (Embedded-ROS)
 
 **`NOTE`**
-In case which you want to access the IMU data via using AgriBot local processor, you can skip next part and jump to [How to launch *agribot_imu*](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_imu.md#how-to-launch-agribot_imu).
+In case which you want to access the IMU data via using AgriBot local processor, you can skip next part and jump to [How to launch *agribot_imu*](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_imu.md#how-to-launch-agribot_imu).
 
 In case you want to use the IMU module with another PC, please follow these steps:
 
@@ -124,11 +124,11 @@ Services:
 To modify the #agribot_servo* code, you should install [Arduino compiler](https://www.arduino.cc) or its plug-in on sublime [Arduin On Sublime](https://packagecontrol.io/packages/Arduino-like%20IDEarduino) and useful tutorial are given in Arduino website as well.
 
 You can access the #agribot_servo* code via link below:
-* [*agribot_servo* code](https://github.com/alirezaahmadi/Agribot/tree/master/code/agribot_servo)
+* [*agribot_servo* code](https://github.com/PRBonn/Agribot/tree/master/code/agribot_servo)
 
 ---
-* [The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
 
 ---
 ### References

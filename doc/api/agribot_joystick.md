@@ -6,8 +6,8 @@
 
 ## Table of Contents
 - [How to Use JoyStick]()
-  - [About the *agribot_joystick* package](https://github.com/alirezaahmadi/Agribot/blob/master/doc/joystick.md#about-the-agribot_joy-package)
-  - [Buttons/Axis functionalities](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/agribot_joystick.md#buttonsaxis-functionalities)
+  - [About the *agribot_joystick* package](https://github.com/PRBonn/Agribot/blob/master/doc/joystick.md#about-the-agribot_joy-package)
+  - [Buttons/Axis functionalities](https://github.com/PRBonn/Agribot/blob/master/doc/api/agribot_joystick.md#buttonsaxis-functionalities)
 
 ---
 
@@ -97,8 +97,8 @@ The joystick button index to control angular speed
 The joystick button index to control position of steering system (servos)
 
 --- 
-* [The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
 
 --- 
  by: Alireza Ahmadi                                     

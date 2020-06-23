@@ -29,7 +29,7 @@ $ roslaunch agribot_visualservoing visualservoing.launch
 
 **NOTE** to have full functionality, you will need a localization service running to provide position of the robot. In case which you use the robot in the lab, use *mocap* system as localization server.
 
-for more information about *mocap* system refer to this page [Motion Capture](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api/mocap.md) 
+for more information about *mocap* system refer to this page [Motion Capture](https://github.com/PRBonn/Agribot/blob/master/doc/api/mocap.md) 
 
 Node: [/agribot_vs]
 
@@ -52,8 +52,8 @@ Services:
  * None
 
 --- 
-* [The Main ReadMe](https://github.com/alirezaahmadi/Agribot/blob/master/README.md)
-* [AgriBot Software](https://github.com/alirezaahmadi/Agribot/blob/master/doc/api.md) 
+* [The Main ReadMe](https://github.com/PRBonn/Agribot/blob/master/README.md)
+* [AgriBot Software](https://github.com/PRBonn/Agribot/blob/master/doc/api.md) 
 
 --- 
  by: Alireza Ahmadi                                     
