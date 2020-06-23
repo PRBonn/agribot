@@ -1,0 +1,817 @@
+<?xml version="1.0"?>
+
+<robot name="agribot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:property name="camera_link_front" value="0.05" /> <!-- Size of square 'camera' box --> 
+  <xacro:property name="camera_link_back" value="0.05" /> <!-- Size of square 'camera' box --> 
+
+  <xacro:property name="M_PI" value="3.14159265359" /> 
+  <xacro:property name="M_PI2" value="1.57079632679" /> 
+
+  <xacro:property name="_friction" value="0.0001" /> 
+  <xacro:property name="_damping" value="0.001" />  
+  <xacro:property name="_velocity" value="0.5" /> 
+  <xacro:property name="_effort" value="1000.0" /> 
+  <xacro:property name="_lower_limit" value="-6.0" /> 
+  <xacro:property name="_higher_limit" value="6.0" /> 
+
+  <xacro:include filename="$(find agribot_control)/urdf/agribot.gazebo" />
+  <xacro:include filename="$(find agribot_control)/urdf/materials.xacro" />
+  <xacro:include filename="$(find agribot_control)/urdf/macros.xacro" />
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.111078485559937 0.000705580494722497 -0.00585333353825024"
+        rpy="0 0 0" />
+      <mass
+        value="7.9509272490726" />
+      <inertia
+        ixx="0.919120108816412"
+        ixy="0.000692520451882764"
+        ixz="-0.00181722795019319"
+        iyy="1.00413979518982"
+        iyz="-1.03972367001855E-05"
+        izz="1.9202806735878" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_leg">
+    <inertial>
+      <origin
+        xyz="-1.66533453693773E-16 -0.477061379270826 0.150081974979978"
+        rpy="0 0 0" />
+      <mass
+        value="2.41451388541046" />
+      <inertia
+        ixx="0.57326370267514"
+        ixy="-1.55004115314149E-16"
+        ixz="-2.24158119274023E-17"
+        iyy="0.0982101042699239"
+        iyz="-0.0391744335677037"
+        izz="0.475796165334593" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/left_leg.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/left_leg.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_leg_joint"
+    type="fixed">
+    <origin
+      xyz="0.507757199999999 0.37 -0.3288"
+      rpy="3.14159265358979 0 1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_leg" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="right_leg">
+    <inertial>
+      <origin
+        xyz="0.50695885654552 -0.0152487488854501 -0.146120125360058"
+        rpy="0 0 0" />
+      <mass
+        value="3.84570821080266" />
+      <inertia
+        ixx="0.296420792952695"
+        ixy="-0.0371083251981886"
+        ixz="0.0143777602564362"
+        iyy="1.00530306142733"
+        iyz="-0.00813249832445225"
+        izz="0.905217374842006" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/right_leg.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/right_leg.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_leg_joint"
+    type="fixed">
+    <origin
+      xyz="-0.492242799999999 -0.0851999999999998 -0.504"
+      rpy="-1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_leg" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="sensor_box">
+    <inertial>
+      <origin
+        xyz="-1.38777878078145E-16 0.0253479649063364 -1.40813899445239E-17"
+        rpy="0 0 0" />
+      <mass
+        value="5.54829934163486" />
+      <inertia
+        ixx="0.69941567819577"
+        ixy="-1.95156391047389E-18"
+        ixz="1.17961196366423E-16"
+        iyy="0.81793824551903"
+        iyz="-1.8856341645188E-17"
+        izz="0.137055687455583" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/sensor_box.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.874509803921569 0.631372549019608 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/sensor_box.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="sensor_box_joint"
+    type="fixed">
+    <origin
+      xyz="0.2027572 0 -0.177"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="sensor_box" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="base_footprint" />
+  <joint
+    name="base_footprint_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0222427999999998 0 -1.034"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="base_footprint" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="imu_link" />
+  <joint
+    name="imu_link_joint"
+    type="fixed">
+    <origin
+      xyz="0.5277572 0 -0.0209520000000005"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="imu_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="gps_link" />
+  <joint
+    name="gps_link_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="gps_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="zed_center" />
+  <joint
+    name="zed_center_joint"
+    type="fixed">
+    <origin
+      xyz="0.5037567 0 0.0152379999999996"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="zed_center" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="front_w_l">
+    <inertial>
+      <origin
+        xyz="0.0169585900383 -6.75068276955737E-05 1.52646951752655E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.630032967311711" />
+      <inertia
+        ixx="0.00669221232999861"
+        ixy="1.46876065216874E-06"
+        ixz="-1.83677052642238E-07"
+        iyy="0.00381017219621702"
+        iyz="2.02228538609624E-07"
+        izz="0.00380710944075326" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_w_l.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_w_l.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_wl_j"
+    type="continuous">
+    <origin
+      xyz="0.45576 0.4305 -0.904"
+      rpy="3.1416 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_w_l" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="front_w_r">
+    <inertial>
+      <origin
+        xyz="0.0169585900289108 -6.75068276941859E-05 1.52646951756819E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.630032967311706" />
+      <inertia
+        ixx="0.0066922123299986"
+        ixy="1.4687606367534E-06"
+        ixz="-1.83677063980871E-07"
+        iyy="0.00381016787088096"
+        iyz="2.02228538641145E-07"
+        izz="0.00380710511541725" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_w_r.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_w_r.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_wr_j"
+    type="continuous">
+    <origin
+      xyz="0.45576 -0.4305 -0.904"
+      rpy="0 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_w_r" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="back_c_l">
+    <inertial>
+      <origin
+        xyz="0.0408020089137942 -2.20027751224317E-06 -0.0753064138736016"
+        rpy="0 0 0" />
+      <mass
+        value="1.78018975141913" />
+      <inertia
+        ixx="0.0119429751240832"
+        ixy="1.51346058960582E-07"
+        ixz="0.0047086697609114"
+        iyy="0.012719613396601"
+        iyz="-3.20565703090961E-07"
+        izz="0.00449043316235224" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_c_l.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_c_l.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- 3.1416 -->
+  <joint
+    name="back_cl_j"
+    type="revolute">
+    <origin
+      xyz="-0.53224 0.37 -0.74193"
+      rpy="-3.1578E-16 2.3679E-16 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_c_l" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="${_effort}" lower="${_lower_limit}" upper="${_higher_limit}" velocity="${_velocity}"/>
+    <dynamics damping="${_damping}" friction="${_friction}" />
+  </joint>
+  <link
+    name="back_w_l">
+    <inertial>
+      <origin
+        xyz="-0.000406180079597973 -6.75068276938251E-05 1.52646951747659E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.630032967311717" />
+      <inertia
+        ixx="0.00669221232999866"
+        ixy="1.46876065217403E-06"
+        ixz="-1.83677052642392E-07"
+        iyy="0.00381017219621705"
+        iyz="2.02228538599299E-07"
+        izz="0.00380710944075334" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_w_l.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_w_l.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_wl_j"
+    type="continuous">
+    <origin
+      xyz="0.079407 0 -0.15715"
+      rpy="1.5708 -3.1578E-16 1.5708" />
+    <parent
+      link="back_c_l" />
+    <child
+      link="back_w_l" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="back_c_r">
+    <inertial>
+      <origin
+        xyz="-0.0408020085623402 2.19978087612205E-06 -0.0753064146672595"
+        rpy="0 0 0" />
+      <mass
+        value="1.78018973135585" />
+      <inertia
+        ixx="0.0119429749924109"
+        ixy="1.51328903334174E-07"
+        ixz="-0.00470866980430646"
+        iyy="0.0127196133801171"
+        iyz="3.20626513970711E-07"
+        izz="0.00449043322343492" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_c_r.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_c_r.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_cr_j"
+    type="revolute">
+    <origin
+      xyz="-0.53224 -0.37 -0.74193"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_c_r" />
+    <axis
+      xyz="0 0 1" />
+    <limit effort="${_effort}" lower="${_lower_limit}" upper="${_higher_limit}" velocity="${_velocity}"/>
+    <dynamics damping="${_damping}" friction="${_friction}" />
+  </joint>
+  <link
+    name="back_w_r">
+    <inertial>
+      <origin
+        xyz="-0.000406180073682316 -6.75068276933533E-05 1.52646951745439E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.630032967311691" />
+      <inertia
+        ixx="0.0066922123299985"
+        ixy="1.46876064431743E-06"
+        ixz="-1.83677052786695E-07"
+        iyy="0.00381017423444503"
+        iyz="2.0222853863883E-07"
+        izz="0.0038071114789812" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_w_r.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.501960784313725 0.501960784313725 0.501960784313725 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/back_w_r.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_wr_j"
+    type="continuous">
+    <origin
+      xyz="-0.079407 0 -0.15715"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="back_c_r" />
+    <child
+      link="back_w_r" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="front_m_l">
+    <inertial>
+      <origin
+        xyz="0.000172348602596462 0.00360003940885012 0.0476290867686325"
+        rpy="0 0 0" />
+      <mass
+        value="0.0474773626136393" />
+      <inertia
+        ixx="6.83629224081374E-05"
+        ixy="2.12607715754985E-08"
+        ixz="-1.28904972603933E-07"
+        iyy="6.89854672203106E-05"
+        iyz="-3.66884744302154E-06"
+        izz="2.43418019155252E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_m_l.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_m_l.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_ml_j"
+    type="fixed">
+    <origin
+      xyz="0.45576 0.30769 -0.904"
+      rpy="-1.5708 -1.5272 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_m_l" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="front_m_r">
+    <inertial>
+      <origin
+        xyz="0.0323709132313685 0.000104130448797535 1.52149314511518E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0474773626136397" />
+      <inertia
+        ixx="2.43418019121387E-05"
+        ixy="3.6709788051459E-06"
+        ixz="-3.1187566402171E-08"
+        iyy="6.89861359372765E-05"
+        iyz="-5.93859827259756E-09"
+        izz="6.83622536877904E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_m_r.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://agribot_control/meshes/front_m_r.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_mr_j"
+    type="fixed">
+    <origin
+      xyz="0.45926 -0.38769 -0.904"
+      rpy="3.1416 0 1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_m_r" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <link name="camera_link_front">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="${camera_link_front} ${camera_link_front} ${camera_link_front}"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="${camera_link_front} ${camera_link_front} ${camera_link_front}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+
+  <joint name="camera_joint_front" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="0.55 0 0.01" rpy="0 1.0472 0"/>
+    <parent link="base_link"/>
+    <child link="camera_link_front"/>
+  </joint>
+<!-- 1.0472 -->
+  <link name="camera_link_back">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="${camera_link_back} ${camera_link_back} ${camera_link_back}"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+    <box size="${camera_link_back} ${camera_link_back} ${camera_link_back}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+  </link>
+  <joint name="camera_joint_back" type="fixed">
+    <axis xyz="0 1 0" />
+    <origin xyz="-0.55 0 0.01" rpy="0 1.0472 3.1415"/>
+    <parent link="base_link"/>
+    <child link="camera_link_back"/>
+  </joint>
+
+<!--   <transmission name="tran1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_wl_j">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_l">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="front_wr_j">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_r">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission> -->
+
+  <transmission name="tran3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="back_cl_j">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_cl">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+  <transmission name="tran4">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="back_cr_j">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor_cr">
+      <mechanicalReduction>1</mechanicalReduction>
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </actuator>
+  </transmission>
+
+
+
+</robot>

@@ -1,0 +1,30 @@
+agribot:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+
+  Diff_base_controller:
+    type: "diff_drive_controller/DiffDriveController"
+    left_wheel  : 'front_wl_j'
+    right_wheel : 'front_wr_j'
+#Velocity Controllers ---------------------------------------
+  # left_front_joint:
+  #   type: effort_controllers/JointVelocityController
+  #   joint: front_wl_j
+  #   pid: {p: 100.0, i: 10.0, d: 0.01}
+  # right_front_joint:
+  #   type: effort_controllers/JointVelocityController
+  #   joint: front_wr_j
+  #   pid: {p: 100.0, i: 10.0, d: 0.01}
+#Position Controllers ---------------------------------------
+  left_caster_joint:
+    type: effort_controllers/JointPositionController
+    joint: back_cl_j
+    pid: {p: 80.0, i: 5.0, d: 0.00}
+  right_caster_joint:
+    type: effort_controllers/JointPositionController
+    joint: back_cr_j
+    pid: {p: 80.0, i: 5.0, d: 0.00}
+
+    # pid: {p: 1.0, i: 0.01, d: 0.01}

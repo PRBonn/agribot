@@ -1,0 +1,5 @@
+        <velocity>0 0 0 0 0 0</velocity>
+        <acceleration>0 0 0 0 0 0</acceleration>
+        <wrench>0 0 0 0 0 0</wrench>
+      </link>
+    </model>

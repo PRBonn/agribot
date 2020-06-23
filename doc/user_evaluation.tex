@@ -1,0 +1,90 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage{geometry}
+\usepackage{layaureo}% loads package geometry
+\usepackage[legalpaper, landscape, margin=2in]{geometry}
+\usepackage[margin=1in]{geometry}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\title{AgriBot : User Evaluation}
+\author{Evaluator's name}
+\begin{document}
+\maketitle
+
+\section{Goal}
+
+The goal of this exercise is to evaluate the user experience while operating
+the AgriBot as a data recording platform. To perform the evaluation, the user is
+first requested to go through the documentation and then execute a series of tasks. The developers will be present during the evaluation and provide assistance only if
+requested by the user. The estimated time required to perform the evaluation is as follows:
+\begin{itemize}
+	\item Reading the documentaion : 20 Mins
+	\item Executing the list of tasks : 30 Mins
+	\item Provide feedback: 10 mins
+\end{itemize}
+
+
+\section{Task description and evaluation}
+
+The tasks are designed to evaluate whether the readiness of the platform for a new user to operate and record data from its on-board sensors. The user is requested to go through the task list sequentially and tick the appropriate check box. Please tick on Yes only if you were able to complete the task without any assistance from the developers.   
+
+\begin{enumerate}
+	\item \textbf{Task 1}: Turn on the robot.
+		\begin{todolist}
+			\item Yes
+			\item No
+		\end{todolist}
+
+	\item \textbf{Task 2}: Connect your laptop to the AgriBot using the Ethernet setup.
+		\begin{todolist}
+			\item Yes
+			\item No
+		\end{todolist}
+
+	\item \textbf{Task 3}: Control the AgriBot using the joystick. Try to drive in different modes and perform simple maneuvers such following a straight line or take a turn.
+		\begin{todolist}
+			\item Yes
+			\item No
+		\end{todolist}
+				
+	\item \textbf{Task 4}: Take the AgriBot outside the lab and record data.
+		\begin{todolist}
+			\item Yes
+			\item No
+		\end{todolist}
+		
+	\item \textbf{Task 5}: Bring the AgriBot back to the lab, shut it down and
+		charge the batteries. 
+		\begin{todolist}
+			\item Yes
+			\item No
+		\end{todolist}
+		
+\end{enumerate}
+
+\section{Feedback}
+
+\begin{enumerate}
+	\item Which tasks lacked sufficient/clear documentation? What additional documentation is required?  \\ 
+		\framebox(400,80){} 
+		
+	\item What additional features would you like in order to make the whole process
+	of data collection easier?  \\ 
+		\framebox(400,80){}
+		
+	\item How easy/difficult was it to control the AgriBot using the joystick? What additional controls/changes would you recommend? \\	
+		\framebox(400,80){}				
+	
+	\item What things would you like to be improved about the AgriBot as a whole?\\	
+		\framebox(400,80){}				
+\end{enumerate}
+
+
+
+\end{document}

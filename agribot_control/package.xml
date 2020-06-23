@@ -1,0 +1,21 @@
+<package>
+  <name>agribot_control</name>
+  <version>1.0.0</version>
+  <description>
+    <p>URDF Description package for agribot_control</p>
+    <p>This package contains configuration data, 3D models and launch files
+for agribot_control robot</p>
+  </description>
+  <author>me</author>
+  <maintainer email="alireza.elecat@gmail.com" />
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>gazebo</run_depend>
+  <export>
+    <architecture_independent />
+  </export>
+</package>

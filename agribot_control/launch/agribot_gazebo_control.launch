@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- Load the URDF into the ROS Parameter Server -->
+  <!-- <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/> -->
+
+  <!-- Show in Rviz   -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz"/> -->
+
+  <!-- Include gazebo launch file rrbot_world.launch -->
+  <include file="$(find agribot_gazebo)/launch/agribot_sb_farm.launch">
+    <arg name="gui" default="true"/>
+  </include>
+  <!-- <include file="$(find agribot_gazebo)/launch/husky_sb_farm.launch" /> -->
+
+  <!-- Include ros_control launch file to load joint position controllers -->
+<!--   <include file="$(find agribot_control)/launch/agribot_control.launch" />
+  <include file="$(find agribot_base_controller)/launch/agribot_base_controller.launch" /> -->
+<!--   <include file="$(find agribot_joystick)/launch/agribot_joystick.launch" />
+ -->
+  <!-- <node name="rqt_multiplot" pkg="rqt_multiplot" type="rqt_multiplot"/> -->
+<!--   <node name="rviz" pkg="rviz" type="rviz"/>
+ -->
+</launch>

@@ -1,0 +1,1 @@
+controller_joint_names: ['back_wr_joint', 'front_wl_j', 'back_wl_j', 'front_wr_j', 'back_cl_j', 'back_cr_j', ]

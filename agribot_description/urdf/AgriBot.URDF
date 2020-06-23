@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+
+<robot
+  name="AgriBot">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0806751514089021 0.89713157182701 0.2395472804545"
+        rpy="0 0 0" />
+      <mass
+        value="4.12089235661957" />
+      <inertia
+        ixx="0.768399102837782"
+        ixy="-0.000566975907051248"
+        ixz="-0.00791564418917131"
+        iyy="1.66220717027524"
+        iyz="2.99186544986107E-05"
+        izz="0.895283911414859" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_leg">
+    <inertial>
+      <origin
+        xyz="-0.00274695482569587 -0.104877884752421 0.160222376467588"
+        rpy="0 0 0" />
+      <mass
+        value="2.68279427592666" />
+      <inertia
+        ixx="0.693848340841167"
+        ixy="0.00307535767693885"
+        ixz="-0.000257982248978138"
+        iyy="0.550091786936733"
+        iyz="-0.0406269432912955"
+        izz="0.145394375661184" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/left_leg.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/left_leg.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_leg_j"
+    type="fixed">
+    <origin
+      xyz="0.41455 -0.038812 1.4369"
+      rpy="1.5719 -1.0644E-15 -0.010452" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_leg" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="left_fron_motor">
+    <inertial>
+      <origin
+        xyz="0.000943512691755855 0.0092550922633271 0.00230005668672162"
+        rpy="0 0 0" />
+      <mass
+        value="0.0474773625746306" />
+      <inertia
+        ixx="6.83622534784743E-05"
+        ixy="5.93859889042828E-09"
+        ixz="-3.11875713651535E-08"
+        iyy="6.89861357207894E-05"
+        iyz="3.67097877612225E-06"
+        izz="2.43418019140915E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/left_fron_motor.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://meshes/left_fron_motor.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_fron_motor_j"
+    type="fixed">
+    <origin
+      xyz="-0.01698 0.36093 -0.26715"
+      rpy="-1.5708 -6.1383E-08 -1.5708" />
+    <parent
+      link="left_leg" />
+    <child
+      link="left_fron_motor" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="left_fron_wheel">
+    <inertial>
+      <origin
+        xyz="0.0164626876197982 -6.48862040431297E-05 1.45754210374438E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.655479868012591" />
+      <inertia
+        ixx="0.00669372971643758"
+        ixy="-1.48983445407637E-06"
+        ixz="2.05290133632683E-07"
+        iyy="0.00382849960197859"
+        iyz="-2.022448148647E-07"
+        izz="0.00382543695463404" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/left_fron_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/left_fron_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_fron_wheel_j"
+    type="continuous">
+    <origin
+      xyz="0.0009283 0.005651 0.077486"
+      rpy="-3.1405 -1.5708 3.1405" />
+    <parent
+      link="left_fron_motor" />
+    <child
+      link="left_fron_wheel" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="left_back_u">
+    <inertial>
+      <origin
+        xyz="-2.19978721283098E-06 0.0818439163469187 -0.0386054008005605"
+        rpy="0 0 0" />
+      <mass
+        value="1.78018973150026" />
+      <inertia
+        ixx="0.0127196133801126"
+        ixy="3.20625924103334E-07"
+        ixz="-1.51328591974748E-07"
+        iyy="0.00449043322366051"
+        iyz="-0.00470866980398297"
+        izz="0.0119429749923926" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/left_back_u.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/left_back_u.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_back_u_j"
+    type="continuous">
+    <origin
+      xyz="0 0.37508 0.79461"
+      rpy="6.1383E-08 6.599E-09 3.1416" />
+    <parent
+      link="left_leg" />
+    <child
+      link="left_back_u" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="left_back_wheel">
+    <inertial>
+      <origin
+        xyz="0.0169585900650365 -6.75068281532631E-05 1.52646950466462E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.630032967450187" />
+      <inertia
+        ixx="0.006692212330045"
+        ixy="-1.46876064243583E-06"
+        ixz="1.83677063216729E-07"
+        iyy="0.00381017986291498"
+        iyz="-2.02228540837835E-07"
+        izz="0.00380711710749655" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/left_back_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/left_back_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_back_wheel_j"
+    type="revolute">
+    <origin
+      xyz="-0.017365 0 0"
+      rpy="0 -1.7347E-18 0" />
+    <parent
+      link="left_back_u" />
+    <child
+      link="left_back_wheel" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="right_leg">
+    <inertial>
+      <origin
+        xyz="0.0227490125503702 0.456034950694976 0.508021591806585"
+        rpy="0 0 0" />
+      <mass
+        value="2.68279427593309" />
+      <inertia
+        ixx="0.693576015783771"
+        ixy="-0.0030803969454815"
+        ixz="0.000257452174934864"
+        iyy="0.550091573640428"
+        iyz="-0.0392668242970742"
+        izz="0.145122119290341" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_leg.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_leg.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_leg_j"
+    type="fixed">
+    <origin
+      xyz="-0.26178 0.31671 0.87731"
+      rpy="1.5719 -1.0895E-15 -0.010452" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_leg" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="right_front_motor">
+    <inertial>
+      <origin
+        xyz="0.000943512686206738 0.00925509225722426 0.00230005668662961"
+        rpy="0 0 0" />
+      <mass
+        value="0.0474773625767179" />
+      <inertia
+        ixx="6.83622534949298E-05"
+        ixy="5.93860096289637E-09"
+        ixz="-3.11875574611471E-08"
+        iyy="6.89861357367757E-05"
+        iyz="3.67097881787069E-06"
+        izz="2.43418019139829E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_front_motor.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_front_motor.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_front_motor_j"
+    type="fixed">
+    <origin
+      xyz="0.036988 0.91907 0.080651"
+      rpy="-1.5708 6.1383E-08 1.5708" />
+    <parent
+      link="right_leg" />
+    <child
+      link="right_front_motor" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="right_front_wheel">
+    <inertial>
+      <origin
+        xyz="0.0164626875242103 -6.48860876186208E-05 1.46720923717147E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.655479867807164" />
+      <inertia
+        ixx="0.00669372971853803"
+        ixy="-1.48985208911529E-06"
+        ixz="1.88446277883946E-07"
+        iyy="0.00382849658795235"
+        iyz="-2.02253739321719E-07"
+        izz="0.00382543393810763" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_front_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_front_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_front_wheel_j"
+    type="continuous">
+    <origin
+      xyz="0.0009283 0.005651 0.077486"
+      rpy="3.1416 -1.5708 0" />
+    <parent
+      link="right_front_motor" />
+    <child
+      link="right_front_wheel" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="right_back_u">
+    <inertial>
+      <origin
+        xyz="-2.2002845199709E-06 0.0818439155528921 -0.0386053996730705"
+        rpy="0 0 0" />
+      <mass
+        value="1.78018971143072" />
+      <inertia
+        ixx="0.0127196131756508"
+        ixy="3.20565034352503E-07"
+        ixz="-1.51248224810951E-07"
+        iyy="0.0044904330967471"
+        iyz="-0.00470866965944609"
+        izz="0.0119429748605887" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_back_u.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_back_u.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_back_u_j"
+    type="continuous">
+    <origin
+      xyz="0.020005 0.93508 1.1424"
+      rpy="6.1383E-08 6.599E-09 3.1416" />
+    <parent
+      link="right_leg" />
+    <child
+      link="right_back_u" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="right_back_wheel">
+    <inertial>
+      <origin
+        xyz="0.0169585900420705 -6.75068281608127E-05 1.52646950382085E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.630032967450165" />
+      <inertia
+        ixx="0.00669221233004496"
+        ixy="-1.46876063337673E-06"
+        ixz="1.83677054151718E-07"
+        iyy="0.00381017175254394"
+        iyz="-2.02228540921831E-07"
+        izz="0.0038071089971257" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_back_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://AgriBot/meshes/right_back_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_back_wheel_j"
+    type="continuous">
+    <origin
+      xyz="-0.017365 0 0"
+      rpy="0 2.7756E-17 -1.6941E-21" />
+    <parent
+      link="right_back_u" />
+    <child
+      link="right_back_wheel" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+
+<!-- front bar of the metal frame -->
+
+    <link name="front_bar_link" />
+
+    <joint name="front_bar" type="fixed">
+      <origin xyz="0.52 0 0" rpy="0 0 0" />
+      <parent link="base_link" />
+      <child link="front_bar_link" />
+    </joint>
+
+ <!--Sensor box and sensore definition
+
+ <link name="sensor_box">
+       <visual>
+         <geometry>
+           <box size="0.6 0.1 0.2"/>
+         </geometry>
+         <origin rpy="0 1.57075 0" xyz="0 0 -0.3"/>
+         <material name="white"/>
+       </visual>
+     </link>
+   
+     <joint name="base_to_sensor_box" type="fixed">
+       <parent link="base_link"/>
+       <child link="sensor_box"/>
+       <origin xyz="0 -0.22 0.25"/>
+    </joint>-->
+
+ <!-- IMU  -->
+
+    <link name="imu_link" />
+    <joint name="imu" type="fixed">
+      <origin xyz="-0.48 0.0 0.0" rpy="0 0 0" />
+      <parent link="base_link" />
+      <child link="imu_link" />
+    </joint>
+
+ <!-- GPS ANTENNA -->
+
+    <link name="gps_frame_id" />
+    <joint name="gps" type="fixed">
+      <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+      <parent link="base_link" />
+      <child link="gps_frame_id" />
+    </joint>
+
+<!-- ZED Camera -->
+
+    <link name="zed_left_camera">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 1.57 0"/>
+            <geometry>
+                <cylinder radius="0.007" length=".031"/>
+            </geometry>
+            <material name="dark_grey">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+    </link>
+    <link name="zed_center">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://meshes/ZED.stl" />
+            </geometry>
+            <material name="light_grey">
+                <color rgba="0.8 0.8 0.8 0.8"/>
+            </material>
+        </visual>
+    </link>
+    <link name="zed_right_camera">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 1.57 0"/>
+            <geometry>
+                <cylinder radius="0.007" length=".031"/>
+            </geometry>
+            <material name="dark_grey">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+    </link>
+    <link name="zed_depth_camera" />
+
+    <joint name="zed_center_joint" type="fixed">
+        <parent link="front_bar_link"/>
+        <child link="zed_center"/>
+        <origin xyz="0 0 0.05" rpy="0 0 0" />
+    </joint>
+    <joint name="zed_left_camera_joint" type="fixed">
+        <parent link="zed_center"/>
+        <child link="zed_left_camera"/>
+        <origin xyz="0 0.06 0" rpy="0 0 0" />
+    </joint>
+    <joint name="zed_depth_camera_joint" type="fixed">
+        <parent link="zed_left_camera"/>
+        <child link="zed_depth_camera"/>
+        <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966" />
+    </joint>
+
+    <joint name="zed_right_camera_joint" type="fixed">
+        <parent link="zed_center"/>
+        <child link="zed_right_camera"/>
+        <origin xyz="0 -0.06 0" rpy="0 0 0" />
+    </joint>
+
+
+</robot>

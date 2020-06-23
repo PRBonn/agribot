@@ -1,0 +1,19 @@
+<package>
+  <name>agribot_gazebo</name>
+  <version>0.1.0</version>
+  <description>pioneer_gazebo</description>
+  <maintainer email="alireza.ahmadi@uni-bonn.de">Alireza Ahmadi</maintainer>
+
+  <license>BSD</license>
+
+  <author email="alireza.ahmadi@uni-bonn.de">Alireza Ahmadi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>agribot_description</run_depend>
+  <run_depend>agribot_control</run_depend> 
+  <run_depend>gazebo_ros</run_depend> 
+
+  <export>
+  </export>
+</package>

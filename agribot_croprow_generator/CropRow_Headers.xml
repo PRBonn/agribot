@@ -1,0 +1,2750 @@
+
+<model name='big_plant_0'>
+<pose frame=''>4.0 0.01958371758031934 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.0 0.01958371758031934 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_1'>
+<pose frame=''>4.3061224489795915 0.020872527788248347 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.3061224489795915 0.020872527788248347 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_2'>
+<pose frame=''>4.612244897959184 0.0007854540883623984 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.612244897959184 0.0007854540883623984 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_3'>
+<pose frame=''>4.918367346938775 0.001891112509245543 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.918367346938775 0.001891112509245543 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_4'>
+<pose frame=''>5.224489795918368 0.030047442871970205 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.224489795918368 0.030047442871970205 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_5'>
+<pose frame=''>5.530612244897959 0.010161312841429163 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.530612244897959 0.010161312841429163 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_6'>
+<pose frame=''>5.836734693877551 0.022645102963228917 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.836734693877551 0.022645102963228917 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_7'>
+<pose frame=''>6.142857142857142 0.003311546540838636 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.142857142857142 0.003311546540838636 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_8'>
+<pose frame=''>6.448979591836735 0.009843824348856525 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.448979591836735 0.009843824348856525 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_9'>
+<pose frame=''>6.755102040816327 0.02081539033399469 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.755102040816327 0.02081539033399469 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_10'>
+<pose frame=''>7.061224489795919 0.0054816794927459 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.061224489795919 0.0054816794927459 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_11'>
+<pose frame=''>7.36734693877551 0.0386033404245622 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.36734693877551 0.0386033404245622 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_12'>
+<pose frame=''>7.673469387755102 0.022248533497843427 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.673469387755102 0.022248533497843427 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_13'>
+<pose frame=''>7.979591836734694 0.03842434624469596 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.979591836734694 0.03842434624469596 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_14'>
+<pose frame=''>8.285714285714285 0.04772446533442665 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.285714285714285 0.04772446533442665 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_15'>
+<pose frame=''>8.591836734693878 0.0015021158855441702 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.591836734693878 0.0015021158855441702 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_16'>
+<pose frame=''>8.89795918367347 0.00677876393321056 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.89795918367347 0.00677876393321056 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_17'>
+<pose frame=''>9.204081632653061 0.009405114470730242 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.204081632653061 0.009405114470730242 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_18'>
+<pose frame=''>9.510204081632654 0.03009898411954318 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.510204081632654 0.03009898411954318 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_19'>
+<pose frame=''>9.816326530612244 0.019600336832811018 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.816326530612244 0.019600336832811018 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_20'>
+<pose frame=''>10.122448979591837 0.009389934723382653 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.122448979591837 0.009389934723382653 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_21'>
+<pose frame=''>10.428571428571429 0.024803689199722496 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.428571428571429 0.024803689199722496 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_22'>
+<pose frame=''>10.73469387755102 0.02655881383013795 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.73469387755102 0.02655881383013795 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_23'>
+<pose frame=''>11.040816326530614 0.024052157055115455 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.040816326530614 0.024052157055115455 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_24'>
+<pose frame=''>11.346938775510203 0.010679761625252802 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.346938775510203 0.010679761625252802 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_25'>
+<pose frame=''>11.653061224489797 0.00931121439174203 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.653061224489797 0.00931121439174203 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_26'>
+<pose frame=''>11.959183673469388 0.032132332039138886 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.959183673469388 0.032132332039138886 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_27'>
+<pose frame=''>12.26530612244898 0.055445893350689016 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.26530612244898 0.055445893350689016 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_28'>
+<pose frame=''>12.571428571428571 0.01280391655411336 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.571428571428571 0.01280391655411336 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_29'>
+<pose frame=''>12.877551020408163 0.018611641156511784 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.877551020408163 0.018611641156511784 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_30'>
+<pose frame=''>13.183673469387756 0.006977505383387829 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.183673469387756 0.006977505383387829 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_31'>
+<pose frame=''>13.489795918367347 0.012473768325546935 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.489795918367347 0.012473768325546935 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_32'>
+<pose frame=''>13.795918367346939 0.007227290272422907 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.795918367346939 0.007227290272422907 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_33'>
+<pose frame=''>14.10204081632653 0.0040878769677084835 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.10204081632653 0.0040878769677084835 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_34'>
+<pose frame=''>14.408163265306122 0.015021541201756963 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.408163265306122 0.015021541201756963 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_35'>
+<pose frame=''>14.714285714285715 0.001046148057303524 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.714285714285715 0.001046148057303524 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_36'>
+<pose frame=''>15.020408163265307 0.010553760470305429 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.020408163265307 0.010553760470305429 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_37'>
+<pose frame=''>15.326530612244898 0.020214313225522425 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.326530612244898 0.020214313225522425 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_38'>
+<pose frame=''>15.63265306122449 0.007071682848644518 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.63265306122449 0.007071682848644518 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_39'>
+<pose frame=''>15.938775510204081 0.014283597148632832 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.938775510204081 0.014283597148632832 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_40'>
+<pose frame=''>16.244897959183675 0.004384606221262894 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.244897959183675 0.004384606221262894 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_41'>
+<pose frame=''>16.551020408163268 0.008496749126804619 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.551020408163268 0.008496749126804619 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_42'>
+<pose frame=''>16.857142857142858 0.000946951309485843 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.857142857142858 0.000946951309485843 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_43'>
+<pose frame=''>17.163265306122447 0.014271935010081812 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.163265306122447 0.014271935010081812 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_44'>
+<pose frame=''>17.46938775510204 0.024319623485796926 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.46938775510204 0.024319623485796926 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_45'>
+<pose frame=''>17.775510204081634 0.008978298730204422 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.775510204081634 0.008978298730204422 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_46'>
+<pose frame=''>18.081632653061227 0.013939638952023952 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.081632653061227 0.013939638952023952 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_47'>
+<pose frame=''>18.387755102040817 0.04259997233753025 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.387755102040817 0.04259997233753025 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_48'>
+<pose frame=''>18.693877551020407 0.026256437534689064 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.693877551020407 0.026256437534689064 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_49'>
+<pose frame=''>19.0 0.0047528177264779484 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>19.0 0.0047528177264779484 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_50'>
+<pose frame=''>4.0 0.8126022522011396 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.0 0.8126022522011396 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_51'>
+<pose frame=''>4.3061224489795915 0.8069442701818568 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.3061224489795915 0.8069442701818568 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_52'>
+<pose frame=''>4.612244897959184 0.8077808511966925 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.612244897959184 0.8077808511966925 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_53'>
+<pose frame=''>4.918367346938775 0.8094784485452764 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.918367346938775 0.8094784485452764 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_54'>
+<pose frame=''>5.224489795918368 0.8082500286512228 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.224489795918368 0.8082500286512228 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_55'>
+<pose frame=''>5.530612244897959 0.8135509252655586 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.530612244897959 0.8135509252655586 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_56'>
+<pose frame=''>5.836734693877551 0.8245337763473997 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.836734693877551 0.8245337763473997 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_57'>
+<pose frame=''>6.142857142857142 0.8284896319570224 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.142857142857142 0.8284896319570224 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_58'>
+<pose frame=''>6.448979591836735 0.8003730938522439 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.448979591836735 0.8003730938522439 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_59'>
+<pose frame=''>6.755102040816327 0.8047595840773674 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.755102040816327 0.8047595840773674 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_60'>
+<pose frame=''>7.061224489795919 0.8302305462865497 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.061224489795919 0.8302305462865497 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_61'>
+<pose frame=''>7.36734693877551 0.8025643033791269 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.36734693877551 0.8025643033791269 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_62'>
+<pose frame=''>7.673469387755102 0.8215778641161678 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.673469387755102 0.8215778641161678 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_63'>
+<pose frame=''>7.979591836734694 0.8307582229235919 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.979591836734694 0.8307582229235919 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_64'>
+<pose frame=''>8.285714285714285 0.8190384632398383 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.285714285714285 0.8190384632398383 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_65'>
+<pose frame=''>8.591836734693878 0.808004357917758 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.591836734693878 0.808004357917758 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_66'>
+<pose frame=''>8.89795918367347 0.8408129782605651 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.89795918367347 0.8408129782605651 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_67'>
+<pose frame=''>9.204081632653061 0.8102326611148203 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.204081632653061 0.8102326611148203 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_68'>
+<pose frame=''>9.510204081632654 0.8091368543798771 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.510204081632654 0.8091368543798771 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_69'>
+<pose frame=''>9.816326530612244 0.8354207509277314 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.816326530612244 0.8354207509277314 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_70'>
+<pose frame=''>10.122448979591837 0.8186245136692227 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.122448979591837 0.8186245136692227 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_71'>
+<pose frame=''>10.428571428571429 0.8152893472417032 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.428571428571429 0.8152893472417032 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_72'>
+<pose frame=''>10.73469387755102 0.8173926234007228 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.73469387755102 0.8173926234007228 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_73'>
+<pose frame=''>11.040816326530614 0.8221957320872054 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.040816326530614 0.8221957320872054 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_74'>
+<pose frame=''>11.346938775510203 0.8157728557637267 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.346938775510203 0.8157728557637267 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_75'>
+<pose frame=''>11.653061224489797 0.8103262691362029 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.653061224489797 0.8103262691362029 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_76'>
+<pose frame=''>11.959183673469388 0.804988199874119 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.959183673469388 0.804988199874119 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_77'>
+<pose frame=''>12.26530612244898 0.8006054824984242 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.26530612244898 0.8006054824984242 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_78'>
+<pose frame=''>12.571428571428571 0.808415167624962 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.571428571428571 0.808415167624962 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_79'>
+<pose frame=''>12.877551020408163 0.805607036915544 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.877551020408163 0.805607036915544 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_80'>
+<pose frame=''>13.183673469387756 0.8054692231348347 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.183673469387756 0.8054692231348347 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_81'>
+<pose frame=''>13.489795918367347 0.836278733935279 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.489795918367347 0.836278733935279 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_82'>
+<pose frame=''>13.795918367346939 0.8038277017798733 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.795918367346939 0.8038277017798733 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_83'>
+<pose frame=''>14.10204081632653 0.8035212737585126 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.10204081632653 0.8035212737585126 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_84'>
+<pose frame=''>14.408163265306122 0.8260591643277613 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.408163265306122 0.8260591643277613 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_85'>
+<pose frame=''>14.714285714285715 0.8035146481600479 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.714285714285715 0.8035146481600479 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_86'>
+<pose frame=''>15.020408163265307 0.8034865591933226 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.020408163265307 0.8034865591933226 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_87'>
+<pose frame=''>15.326530612244898 0.8257165467377205 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.326530612244898 0.8257165467377205 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_88'>
+<pose frame=''>15.63265306122449 0.8137914043895211 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.63265306122449 0.8137914043895211 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_89'>
+<pose frame=''>15.938775510204081 0.8030772699419667 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.938775510204081 0.8030772699419667 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_90'>
+<pose frame=''>16.244897959183675 0.8146055617917222 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.244897959183675 0.8146055617917222 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_91'>
+<pose frame=''>16.551020408163268 0.808820801655246 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.551020408163268 0.808820801655246 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_92'>
+<pose frame=''>16.857142857142858 0.8178879857740595 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.857142857142858 0.8178879857740595 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_93'>
+<pose frame=''>17.163265306122447 0.8064199296462554 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.163265306122447 0.8064199296462554 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_94'>
+<pose frame=''>17.46938775510204 0.8108717259674899 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.46938775510204 0.8108717259674899 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_95'>
+<pose frame=''>17.775510204081634 0.8206221339859896 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.775510204081634 0.8206221339859896 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_96'>
+<pose frame=''>18.081632653061227 0.8117067733727112 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.081632653061227 0.8117067733727112 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_97'>
+<pose frame=''>18.387755102040817 0.8009684700731106 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.387755102040817 0.8009684700731106 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_98'>
+<pose frame=''>18.693877551020407 0.8142865798108501 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.693877551020407 0.8142865798108501 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_99'>
+<pose frame=''>19.0 0.8212444607981961 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>19.0 0.8212444607981961 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_100'>
+<pose frame=''>4.0 1.631296567629731 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.0 1.631296567629731 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_101'>
+<pose frame=''>4.3061224489795915 1.6169011074115593 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.3061224489795915 1.6169011074115593 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_102'>
+<pose frame=''>4.612244897959184 1.6585429832632201 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.612244897959184 1.6585429832632201 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_103'>
+<pose frame=''>4.918367346938775 1.6134225383976561 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.918367346938775 1.6134225383976561 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_104'>
+<pose frame=''>5.224489795918368 1.6114717746036038 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.224489795918368 1.6114717746036038 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_105'>
+<pose frame=''>5.530612244897959 1.6023682952607061 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.530612244897959 1.6023682952607061 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_106'>
+<pose frame=''>5.836734693877551 1.6230528731748122 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.836734693877551 1.6230528731748122 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_107'>
+<pose frame=''>6.142857142857142 1.6146417252138658 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.142857142857142 1.6146417252138658 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_108'>
+<pose frame=''>6.448979591836735 1.6148897166454839 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.448979591836735 1.6148897166454839 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_109'>
+<pose frame=''>6.755102040816327 1.605619192272624 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.755102040816327 1.605619192272624 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_110'>
+<pose frame=''>7.061224489795919 1.6093334901863092 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.061224489795919 1.6093334901863092 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_111'>
+<pose frame=''>7.36734693877551 1.6076410524860618 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.36734693877551 1.6076410524860618 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_112'>
+<pose frame=''>7.673469387755102 1.6014380665507135 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.673469387755102 1.6014380665507135 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_113'>
+<pose frame=''>7.979591836734694 1.6163892131985471 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.979591836734694 1.6163892131985471 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_114'>
+<pose frame=''>8.285714285714285 1.6063340179019343 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.285714285714285 1.6063340179019343 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_115'>
+<pose frame=''>8.591836734693878 1.6154561097064704 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.591836734693878 1.6154561097064704 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_116'>
+<pose frame=''>8.89795918367347 1.6082380657231623 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.89795918367347 1.6082380657231623 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_117'>
+<pose frame=''>9.204081632653061 1.6063240706878146 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.204081632653061 1.6063240706878146 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_118'>
+<pose frame=''>9.510204081632654 1.6013196513069536 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.510204081632654 1.6013196513069536 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_119'>
+<pose frame=''>9.816326530612244 1.6133558942087896 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.816326530612244 1.6133558942087896 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_120'>
+<pose frame=''>10.122448979591837 1.6209267478482206 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.122448979591837 1.6209267478482206 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_121'>
+<pose frame=''>10.428571428571429 1.6120568326065787 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.428571428571429 1.6120568326065787 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_122'>
+<pose frame=''>10.73469387755102 1.6142561440744863 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.73469387755102 1.6142561440744863 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_123'>
+<pose frame=''>11.040816326530614 1.606546925089644 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.040816326530614 1.606546925089644 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_124'>
+<pose frame=''>11.346938775510203 1.6142292353436143 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.346938775510203 1.6142292353436143 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_125'>
+<pose frame=''>11.653061224489797 1.6604442918767262 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.653061224489797 1.6604442918767262 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_126'>
+<pose frame=''>11.959183673469388 1.6119798829726275 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.959183673469388 1.6119798829726275 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_127'>
+<pose frame=''>12.26530612244898 1.6003330113836918 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.26530612244898 1.6003330113836918 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_128'>
+<pose frame=''>12.571428571428571 1.6079672973403527 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.571428571428571 1.6079672973403527 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_129'>
+<pose frame=''>12.877551020408163 1.605185186809771 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.877551020408163 1.605185186809771 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_130'>
+<pose frame=''>13.183673469387756 1.6112843944258797 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.183673469387756 1.6112843944258797 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_131'>
+<pose frame=''>13.489795918367347 1.6181066695361814 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.489795918367347 1.6181066695361814 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_132'>
+<pose frame=''>13.795918367346939 1.6161325648016356 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.795918367346939 1.6161325648016356 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_133'>
+<pose frame=''>14.10204081632653 1.6030263020049338 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.10204081632653 1.6030263020049338 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_134'>
+<pose frame=''>14.408163265306122 1.6188206639907141 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.408163265306122 1.6188206639907141 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_135'>
+<pose frame=''>14.714285714285715 1.6239480528073553 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.714285714285715 1.6239480528073553 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_136'>
+<pose frame=''>15.020408163265307 1.6308007863758291 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.020408163265307 1.6308007863758291 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_137'>
+<pose frame=''>15.326530612244898 1.6173184072818039 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.326530612244898 1.6173184072818039 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_138'>
+<pose frame=''>15.63265306122449 1.6065342745825018 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.63265306122449 1.6065342745825018 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_139'>
+<pose frame=''>15.938775510204081 1.6051562913214557 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.938775510204081 1.6051562913214557 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_140'>
+<pose frame=''>16.244897959183675 1.6330847872168712 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.244897959183675 1.6330847872168712 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_141'>
+<pose frame=''>16.551020408163268 1.617668060366224 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.551020408163268 1.617668060366224 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_142'>
+<pose frame=''>16.857142857142858 1.6069183199287063 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.857142857142858 1.6069183199287063 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_143'>
+<pose frame=''>17.163265306122447 1.6143688936427654 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.163265306122447 1.6143688936427654 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_144'>
+<pose frame=''>17.46938775510204 1.6020140214877145 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.46938775510204 1.6020140214877145 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_145'>
+<pose frame=''>17.775510204081634 1.6111928261598583 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.775510204081634 1.6111928261598583 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_146'>
+<pose frame=''>18.081632653061227 1.6319124459736998 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.081632653061227 1.6319124459736998 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_147'>
+<pose frame=''>18.387755102040817 1.6087008608568827 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.387755102040817 1.6087008608568827 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_148'>
+<pose frame=''>18.693877551020407 1.6087866900446917 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.693877551020407 1.6087866900446917 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_149'>
+<pose frame=''>19.0 1.6102881437954062 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>19.0 1.6102881437954062 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_150'>
+<pose frame=''>4.0 2.4105678866322764 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.0 2.4105678866322764 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_151'>
+<pose frame=''>4.3061224489795915 2.4169587528013934 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.3061224489795915 2.4169587528013934 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_152'>
+<pose frame=''>4.612244897959184 2.401785236095271 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.612244897959184 2.401785236095271 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_153'>
+<pose frame=''>4.918367346938775 2.417025779990369 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.918367346938775 2.417025779990369 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_154'>
+<pose frame=''>5.224489795918368 2.4081039982977686 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.224489795918368 2.4081039982977686 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_155'>
+<pose frame=''>5.530612244897959 2.4371535698395963 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.530612244897959 2.4371535698395963 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_156'>
+<pose frame=''>5.836734693877551 2.42097239695154 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.836734693877551 2.42097239695154 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_157'>
+<pose frame=''>6.142857142857142 2.411494651434125 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.142857142857142 2.411494651434125 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_158'>
+<pose frame=''>6.448979591836735 2.4219524656818563 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.448979591836735 2.4219524656818563 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_159'>
+<pose frame=''>6.755102040816327 2.403178981706884 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.755102040816327 2.403178981706884 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_160'>
+<pose frame=''>7.061224489795919 2.4013575913820784 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.061224489795919 2.4013575913820784 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_161'>
+<pose frame=''>7.36734693877551 2.42312668490083 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.36734693877551 2.42312668490083 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_162'>
+<pose frame=''>7.673469387755102 2.445058508913641 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.673469387755102 2.445058508913641 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_163'>
+<pose frame=''>7.979591836734694 2.4232847222486855 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.979591836734694 2.4232847222486855 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_164'>
+<pose frame=''>8.285714285714285 2.4076841940700757 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.285714285714285 2.4076841940700757 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_165'>
+<pose frame=''>8.591836734693878 2.4226820537061275 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.591836734693878 2.4226820537061275 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_166'>
+<pose frame=''>8.89795918367347 2.4307389926310337 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.89795918367347 2.4307389926310337 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_167'>
+<pose frame=''>9.204081632653061 2.422596079027784 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.204081632653061 2.422596079027784 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_168'>
+<pose frame=''>9.510204081632654 2.4140418765392853 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.510204081632654 2.4140418765392853 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_169'>
+<pose frame=''>9.816326530612244 2.4107394420190587 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.816326530612244 2.4107394420190587 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_170'>
+<pose frame=''>10.122448979591837 2.410737843999806 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.122448979591837 2.410737843999806 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_171'>
+<pose frame=''>10.428571428571429 2.4271795043049114 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.428571428571429 2.4271795043049114 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_172'>
+<pose frame=''>10.73469387755102 2.419056924396656 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.73469387755102 2.419056924396656 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_173'>
+<pose frame=''>11.040816326530614 2.4111952811667567 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.040816326530614 2.4111952811667567 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_174'>
+<pose frame=''>11.346938775510203 2.4294112212471 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.346938775510203 2.4294112212471 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_175'>
+<pose frame=''>11.653061224489797 2.413888778007383 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.653061224489797 2.413888778007383 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_176'>
+<pose frame=''>11.959183673469388 2.4172517430380065 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.959183673469388 2.4172517430380065 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_177'>
+<pose frame=''>12.26530612244898 2.420079165256905 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.26530612244898 2.420079165256905 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_178'>
+<pose frame=''>12.571428571428571 2.4039450647066327 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.571428571428571 2.4039450647066327 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_179'>
+<pose frame=''>12.877551020408163 2.40766076585649 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.877551020408163 2.40766076585649 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_180'>
+<pose frame=''>13.183673469387756 2.4272557909537498 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.183673469387756 2.4272557909537498 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_181'>
+<pose frame=''>13.489795918367347 2.403004285047907 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.489795918367347 2.403004285047907 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_182'>
+<pose frame=''>13.795918367346939 2.402923947278814 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.795918367346939 2.402923947278814 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_183'>
+<pose frame=''>14.10204081632653 2.4192202315627593 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.10204081632653 2.4192202315627593 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_184'>
+<pose frame=''>14.408163265306122 2.4235113876697008 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.408163265306122 2.4235113876697008 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_185'>
+<pose frame=''>14.714285714285715 2.4201124581334477 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.714285714285715 2.4201124581334477 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_186'>
+<pose frame=''>15.020408163265307 2.459381638896755 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.020408163265307 2.459381638896755 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_187'>
+<pose frame=''>15.326530612244898 2.415825455376935 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.326530612244898 2.415825455376935 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_188'>
+<pose frame=''>15.63265306122449 2.434746916571337 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.63265306122449 2.434746916571337 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_189'>
+<pose frame=''>15.938775510204081 2.4101244049941113 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.938775510204081 2.4101244049941113 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_190'>
+<pose frame=''>16.244897959183675 2.451500049773132 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.244897959183675 2.451500049773132 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_191'>
+<pose frame=''>16.551020408163268 2.400018000291756 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.551020408163268 2.400018000291756 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_192'>
+<pose frame=''>16.857142857142858 2.4100019127199706 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.857142857142858 2.4100019127199706 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_193'>
+<pose frame=''>17.163265306122447 2.42182642834316 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.163265306122447 2.42182642834316 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_194'>
+<pose frame=''>17.46938775510204 2.4164356930664006 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.46938775510204 2.4164356930664006 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_195'>
+<pose frame=''>17.775510204081634 2.418982240727858 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.775510204081634 2.418982240727858 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_196'>
+<pose frame=''>18.081632653061227 2.4074854232703133 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.081632653061227 2.4074854232703133 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_197'>
+<pose frame=''>18.387755102040817 2.43047914937948 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.387755102040817 2.43047914937948 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_198'>
+<pose frame=''>18.693877551020407 2.4217949556476914 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.693877551020407 2.4217949556476914 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_199'>
+<pose frame=''>19.0 2.4003759986752686 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>19.0 2.4003759986752686 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_200'>
+<pose frame=''>4.0 3.217761701145876 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.0 3.217761701145876 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_201'>
+<pose frame=''>4.3061224489795915 3.2030889241318135 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.3061224489795915 3.2030889241318135 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_202'>
+<pose frame=''>4.612244897959184 3.2091381006161916 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.612244897959184 3.2091381006161916 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_203'>
+<pose frame=''>4.918367346938775 3.212274927749384 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>4.918367346938775 3.212274927749384 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_204'>
+<pose frame=''>5.224489795918368 3.2042161739265644 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.224489795918368 3.2042161739265644 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_205'>
+<pose frame=''>5.530612244897959 3.2112955500958265 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.530612244897959 3.2112955500958265 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_206'>
+<pose frame=''>5.836734693877551 3.205606524900266 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>5.836734693877551 3.205606524900266 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_207'>
+<pose frame=''>6.142857142857142 3.218523403859725 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.142857142857142 3.218523403859725 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_208'>
+<pose frame=''>6.448979591836735 3.2402053261136277 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.448979591836735 3.2402053261136277 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_209'>
+<pose frame=''>6.755102040816327 3.2105658124719088 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>6.755102040816327 3.2105658124719088 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_210'>
+<pose frame=''>7.061224489795919 3.219826227297843 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.061224489795919 3.219826227297843 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_211'>
+<pose frame=''>7.36734693877551 3.201526337633891 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.36734693877551 3.201526337633891 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_212'>
+<pose frame=''>7.673469387755102 3.2021283493370682 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.673469387755102 3.2021283493370682 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_213'>
+<pose frame=''>7.979591836734694 3.2081697275701013 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>7.979591836734694 3.2081697275701013 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_214'>
+<pose frame=''>8.285714285714285 3.233422326930349 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.285714285714285 3.233422326930349 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_215'>
+<pose frame=''>8.591836734693878 3.209319373101491 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.591836734693878 3.209319373101491 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_216'>
+<pose frame=''>8.89795918367347 3.2153704104438376 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>8.89795918367347 3.2153704104438376 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_217'>
+<pose frame=''>9.204081632653061 3.2005539151545173 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.204081632653061 3.2005539151545173 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_218'>
+<pose frame=''>9.510204081632654 3.213853031145546 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.510204081632654 3.213853031145546 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_219'>
+<pose frame=''>9.816326530612244 3.2009031841533746 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>9.816326530612244 3.2009031841533746 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_220'>
+<pose frame=''>10.122448979591837 3.2012967679662117 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.122448979591837 3.2012967679662117 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_221'>
+<pose frame=''>10.428571428571429 3.2250766335127694 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.428571428571429 3.2250766335127694 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_222'>
+<pose frame=''>10.73469387755102 3.237885948627877 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>10.73469387755102 3.237885948627877 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_223'>
+<pose frame=''>11.040816326530614 3.225546531957807 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.040816326530614 3.225546531957807 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_224'>
+<pose frame=''>11.346938775510203 3.2039266758741385 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.346938775510203 3.2039266758741385 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_225'>
+<pose frame=''>11.653061224489797 3.2238737991711224 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.653061224489797 3.2238737991711224 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_226'>
+<pose frame=''>11.959183673469388 3.209077910386434 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>11.959183673469388 3.209077910386434 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_227'>
+<pose frame=''>12.26530612244898 3.2123672313519025 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.26530612244898 3.2123672313519025 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_228'>
+<pose frame=''>12.571428571428571 3.2470424981065538 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.571428571428571 3.2470424981065538 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_229'>
+<pose frame=''>12.877551020408163 3.204264565883041 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>12.877551020408163 3.204264565883041 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_230'>
+<pose frame=''>13.183673469387756 3.2032508260545987 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.183673469387756 3.2032508260545987 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_231'>
+<pose frame=''>13.489795918367347 3.2186730567442816 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.489795918367347 3.2186730567442816 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_232'>
+<pose frame=''>13.795918367346939 3.220035722239768 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>13.795918367346939 3.220035722239768 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_233'>
+<pose frame=''>14.10204081632653 3.2043924983835708 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.10204081632653 3.2043924983835708 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_234'>
+<pose frame=''>14.408163265306122 3.21209838122362 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.408163265306122 3.21209838122362 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_235'>
+<pose frame=''>14.714285714285715 3.218249913843829 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>14.714285714285715 3.218249913843829 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_236'>
+<pose frame=''>15.020408163265307 3.200889103957508 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.020408163265307 3.200889103957508 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_237'>
+<pose frame=''>15.326530612244898 3.204791080924013 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.326530612244898 3.204791080924013 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_238'>
+<pose frame=''>15.63265306122449 3.220119901487044 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.63265306122449 3.220119901487044 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_239'>
+<pose frame=''>15.938775510204081 3.2002024480387523 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>15.938775510204081 3.2002024480387523 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_240'>
+<pose frame=''>16.244897959183675 3.208414967025532 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.244897959183675 3.208414967025532 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_241'>
+<pose frame=''>16.551020408163268 3.206213302995915 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.551020408163268 3.206213302995915 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_242'>
+<pose frame=''>16.857142857142858 3.2152758928503893 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>16.857142857142858 3.2152758928503893 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_243'>
+<pose frame=''>17.163265306122447 3.204143731124195 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.163265306122447 3.204143731124195 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_244'>
+<pose frame=''>17.46938775510204 3.21257712013429 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.46938775510204 3.21257712013429 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_245'>
+<pose frame=''>17.775510204081634 3.2202674083070506 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>17.775510204081634 3.2202674083070506 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_246'>
+<pose frame=''>18.081632653061227 3.2236076764119894 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.081632653061227 3.2236076764119894 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_247'>
+<pose frame=''>18.387755102040817 3.212449505323286 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.387755102040817 3.212449505323286 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_248'>
+<pose frame=''>18.693877551020407 3.223270020344057 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>18.693877551020407 3.223270020344057 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>
+
+<model name='big_plant_249'>
+<pose frame=''>19.0 3.274397795883279 0 0 -0 0</pose>
+<scale>1 1 1</scale>
+<link name='link_0'>
+<pose frame=''>19.0 3.274397795883279 0.103018 0 -0 0</pose>
+   <velocity>0 0 0 0 0 0</velocity>
+   <acceleration>0 0 0 0 0 0</acceleration>
+   <wrench>0 0 0 0 0 0</wrench>
+   </link>
+</model>

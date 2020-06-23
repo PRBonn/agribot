@@ -1,0 +1,16 @@
+Tur_lin_scale: 0.7
+Tur_ang_scale: 0.5
+
+lin_scale: 0.3
+ang_scale: 0.4
+srv_scale: 90
+
+axis_linear: 1
+axis_angular: 2
+axis_servo: 0
+
+axis_deadman: 5  # L2 shoulder button
+axis_turbo: 4  # L1 shoulder button
+axis_stop: 7
+axis_servo: 6
+

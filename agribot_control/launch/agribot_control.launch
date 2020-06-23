@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find agribot_control)/config/agribot_control.yaml" command="load"/>
+
+
+  <!-- Load the URDF into the ROS Parameter Server -->
+  <!-- <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/> -->
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"  ns="/agribot" args=" 
+  	joint_state_controller 
+
+  	left_caster_joint 
+    right_caster_joint "/>
+<!--     left_front_joint 
+    right_front_joint -->
+<!--  -->
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+  respawn="false" output="screen">
+    <remap from="/joint_states" to="/agribot/joint_states" />
+  </node>
+
+    <!-- Show in Rviz   -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz"/> -->
+
+  <!-- <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="5 5 0 0 0 0 map odom 100" /> -->
+
+</launch>
+
+
+
+

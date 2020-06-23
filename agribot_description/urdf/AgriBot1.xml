@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+
+<robot
+  name="AgriBot">
+
+  <link name="base_link"> </link>
+
+ <link name = "top_frame_link"> </link>
+
+<!-- Base footprint is on the ground under the robot -->
+  <link name="base_footprint"/>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <origin xyz="0 0 -0.5" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="base_footprint" />
+  </joint>
+
+<!-- front bar of the metal frame -->
+
+    <link name="front_bar_link" />
+
+    <joint name="front_bar" type="fixed">
+      <origin xyz="0.52 0 0" rpy="0 0 0" />
+      <parent link="top_frame_link" />
+      <child link="front_bar_link" />
+    </joint>
+
+<!--Senosr Box-->
+
+ <link name="sensor_box"> </link>
+
+ <joint name="sbox" type="fixed">
+      <origin xyz="-0.27 0 -0.157" rpy="0 0 0" />
+      <parent link="top_frame_link" />
+      <child link="sensor_box" />
+ </joint>
+ 
+
+<!--IMU-->
+
+<link name="imu_link"> </link>
+
+<joint name="imu" type="fixed">
+      <origin xyz="-0.25 0 0" rpy="0 0 -1.5708" />
+      <parent link="sensor_box" />
+      <child link="imu_link" />
+    </joint>
+
+<!--GPS-->
+
+<link name="gps_link"> </link>
+
+<joint name="gps" type="fixed">
+      <origin xyz="0 0 0.2" rpy="0 0 0" />
+      <parent link="top_frame_link" />
+      <child link="gps_link" />
+    </joint>
+
+
+<!-- ZED Camera -->
+
+    <link name="zed_left_camera">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 1.57 0"/>
+            <geometry>
+                <cylinder radius="0.007" length=".031"/>
+            </geometry>
+            <material name="dark_grey">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+    </link>
+    <link name="zed_center">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://agribot_display/meshes/ZED.stl" />
+            </geometry>
+            <material name="light_grey">
+                <color rgba="0.8 0.8 0.8 0.8"/>
+            </material>
+        </visual>
+    </link>
+    <link name="zed_right_camera">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 1.57 0"/>
+            <geometry>
+                <cylinder radius="0.007" length=".031"/>
+            </geometry>
+            <material name="dark_grey">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+    </link>
+    <link name="zed_depth_camera" />
+
+    <joint name="zed_center_joint" type="fixed">
+        <parent link="front_bar_link"/>
+        <child link="zed_center"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
+    </joint>
+    <joint name="zed_left_camera_joint" type="fixed">
+        <parent link="zed_center"/>
+        <child link="zed_left_camera"/>
+        <origin xyz="0 0.06 0" rpy="0 0 0" />
+    </joint>
+    <joint name="zed_depth_camera_joint" type="fixed">
+        <parent link="zed_left_camera"/>
+        <child link="zed_depth_camera"/>
+        <origin xyz="0 0 0" rpy="-1.5707963267948966 0 -1.5707963267948966" />
+    </joint>
+
+    <joint name="zed_right_camera_joint" type="fixed">
+        <parent link="zed_center"/>
+        <child link="zed_right_camera"/>
+        <origin xyz="0 -0.06 0" rpy="0 0 0" />
+    </joint>
+
+
+
+ </robot>
