@@ -29,7 +29,7 @@ add plant models to gazebo models using command below:
 first navigate to agribot/agribot_gazebo: 
 
 ```
-cd ~/catkin_ws/src/agribot/agribot_gazebo
+cd ~/catkin_ws/src/agribot/agribot_gazebo/model_editor_models
 ```
 
 then copy models to gazebo models folder by:
