@@ -27,7 +27,7 @@ The image below shows the final version of simulation area and a robot spawned i
 add plant models to gazebo models using command below, first navigate to agribot/agribot_gazebo: 
 
 ```
-cd ~/catkin_ws/src/agribot/agribot_gazebo
+cd ~/catkin_ws/src/agribot/agribot_gazebo/models
 ```
 
 then copy models to gazebo models folder by:
