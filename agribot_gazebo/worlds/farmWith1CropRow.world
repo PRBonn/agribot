@@ -927,17 +927,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='small_plant'>
-        <pose frame=''>-1.97143 0.153461 0 0 -0 0</pose>
-        
-        <scale>1 1 1</scale>
-        <link name='link_0'>
-          <pose frame=''>-1.97143 0.153461 0.110674 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
       <light name='sun'>
         <pose frame=''>0 0 10 0 -0 0</pose>
       </light>
@@ -2294,7 +2283,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2341,7 +2330,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2389,7 +2378,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2437,7 +2426,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2485,7 +2474,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2533,7 +2522,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2581,7 +2570,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2629,7 +2618,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2677,7 +2666,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2725,7 +2714,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2773,7 +2762,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2821,7 +2810,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2869,7 +2858,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2917,7 +2906,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -2965,7 +2954,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3013,7 +3002,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3061,7 +3050,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3109,7 +3098,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3157,7 +3146,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3205,7 +3194,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3253,7 +3242,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3301,7 +3290,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3349,7 +3338,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+              <uri>model://big_plant/mesh/big_plant.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -3468,54 +3457,6 @@
         <gravity>1</gravity>
       </link>
       <pose frame=''>9.84986 4.82173 0 0 -0 0</pose>
-    </model>
-    <model name='small_plant'>
-      <link name='link_0'>
-        <pose frame=''>0 0 0.110674 0 -0 0</pose>
-        <inertial>
-          <mass>1e-08</mass>
-          <inertia>
-            <ixx>0.166667</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.166667</iyy>
-            <iyz>0</iyz>
-            <izz>0.166667</izz>
-          </inertia>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-        </inertial>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <visual name='visual'>
-          <pose frame=''>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/small_plant.stl</uri>
-              <scale>1 1 1</scale>
-            </mesh>
-          </geometry>
-          <material>
-            <lighting>1</lighting>
-            <script>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-              <name>Gazebo/Grey</name>
-            </script>
-            <ambient>0.3 0.3 0.3 1</ambient>
-            <diffuse>0.7 0.7 0.7 1</diffuse>
-            <specular>0.01 1 0.01 1</specular>
-            <emissive>0 1 0 1</emissive>
-            <shader type='vertex'>
-              <normal_map>__default__</normal_map>
-            </shader>
-          </material>
-          <cast_shadows>1</cast_shadows>
-          <transparency>0</transparency>
-        </visual>
-        <gravity>1</gravity>
-      </link>
-      <static>1</static>
-      <allow_auto_disable>1</allow_auto_disable>
-      <pose frame=''>-1.97143 0.153461 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>

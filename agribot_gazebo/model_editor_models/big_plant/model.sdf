@@ -2,7 +2,7 @@
 <sdf version='1.5'>
   <model name='big_plant'>
     <link name='link_0'>
-      <pose frame=''>0 0 0.111949 0 -0 0</pose>
+      <pose frame=''>0 0 0.112 0 -0 0</pose>
       <inertial>
         <mass>1e-08</mass>
         <inertia>
@@ -22,7 +22,7 @@
         <pose frame=''>0 0 0 0 -0 0</pose>
         <geometry>
           <mesh>
-            <uri>/media/alireza/CCCE40F4CE40D7FA/Gitlab/mp-agribot/code/catkin_ws/src/agribot_gazebo/STL files models/big_plant.stl</uri>
+            <uri>model://big_plant/mesh/big_plant.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>

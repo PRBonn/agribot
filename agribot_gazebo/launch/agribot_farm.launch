@@ -11,7 +11,7 @@
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find agribot_gazebo)/worlds/FarmWith1CropRow.world"/>
+    <arg name="world_name" value="$(find agribot_gazebo)/worlds/farmWith1CropRow.world"/>
     <arg name="debug" value="$(arg debug)" />
     <arg name="gui" value="$(arg gui)" />
     <arg name="paused" value="$(arg paused)"/>
@@ -21,7 +21,7 @@
 
   <param name="robot_description" command="$(find xacro)/xacro.py '$(find agribot_control)/urdf/agribot.xacro'"/>
   <node name="agribot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" respawn="false"
-   args="-x 3.0 -y 3.2 -z 1.13 -Y 0   -urdf -param robot_description -model agribot">
+   args="-x -6.0 -y 0 -z 1.13 -Y 0   -urdf -param robot_description -model agribot">
   </node> 
 
 <!--     <include file="$(find gazebo_ros)/launch/empty_world.launch">

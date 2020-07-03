@@ -19,7 +19,34 @@ the created simulation provides IMU, GPS, Camera and wheel Odometry on the same 
 The image below shows the final version of simulation area and a robot spawned into environment.
 
 
+
 <div align="center"><img src="/doc/images/gazebo-crop.png" alt="gazebo-crop" width="400" title="gazebo-crop"/></div>
+
+## Adding Plant modes to Gazebo
+
+add plant models to gazebo models using command below:
+
+first navigate to agribot/agribot_gazebo: 
+
+```
+cd ~/catkin_ws/src/agribot/agribot_gazebo
+```
+
+then copy models to gazebo models folder by:
+
+in z-shell
+```
+sudo mv plant_/* ~/.gazebo/models/
+```
+or in  shell
+```
+sudo mv plant_* ~/.gazebo/models/
+```
+now you should be able to see plant models in gazebo models lists according to image below
+
+
+<div align="center"><img src="/doc/images/gazebo-crop_model.png" alt="gazebo-crop" width="400" title="gazebo-crop"/></div>
+
 
 To launch the `agribot_gazebo` simply run: 
 ```
