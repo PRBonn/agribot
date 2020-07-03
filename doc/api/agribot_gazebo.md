@@ -24,9 +24,7 @@ The image below shows the final version of simulation area and a robot spawned i
 
 ## Adding Plant modes to Gazebo
 
-add plant models to gazebo models using command below:
-
-first navigate to agribot/agribot_gazebo: 
+add plant models to gazebo models using command below, first navigate to agribot/agribot_gazebo: 
 
 ```
 cd ~/catkin_ws/src/agribot/agribot_gazebo
