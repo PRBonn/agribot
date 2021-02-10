@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <arg name="node_name" default="emlid_gps" />
+  <arg name="frame_id" default="gps_link" />
+  <arg name="port" default="/dev/ttyACM0"/>
+  <arg name="baud" default="57600"/>
+  <arg name="output" default="screen" />
+  <arg name="respawn" default="true" />
+  <arg name="respawn_delay" default="30" />
+  <arg name="clear_params" default="true" />
+
+  <node pkg="nmea_navsat_driver" type="nmea_serial_driver" name="$(arg node_name)"
+  output="$(arg output)"
+  clear_params="$(arg clear_params)"
+  respawn="$(arg respawn)"
+  respawn_delay="$(arg respawn_delay)"
+  args="_port:=$(arg port) _baud:=$(arg baud) _frame_id:=$(arg frame_id)"/>
+
+</launch>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+ <arg name="path" default="/home/peeyush/agribot/agribot-bag-files/loc_bag/" />
+ <arg name="file" default="run_26-6_noTF" />
+ <arg name="switch" default="--clock" />
+
+ <node pkg="rosbag" type="play" name="Test_replay" args="$(arg switch) $(arg path)$(arg file).bag"/>
+
+ <!--Launch localization-->
+ <include file="$(find agribot_localization)/launch/localization.launch"/>
+
+ <!--Launch description-->
+ <include file="$(find agribot_description)/launch/display.launch"/>
+
+</launch>

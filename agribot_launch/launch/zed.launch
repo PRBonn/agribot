@@ -1,0 +1,27 @@
+<launch>
+<arg name="config_file_location" default="$(find zed_cpu_ros)/config/SN1267.conf"/>
+<arg name="camera_namespace" default="camera"/>
+<!-- to find your device id, use ls /dev/ and look for the numbder after video -->
+<arg name="device_id" default="5"/>
+<arg name="resolution" default="1"/>
+<arg name="frame_rate" default="30"/>
+<arg name="show_image" default="false"/>
+<arg name="encoding" default="bgr8"/>
+<arg name="use_zed_config" default="false"/>
+
+<node pkg="zed_cpu_ros" type="zed_cpu_ros" name="zed_cpu_ros_node" output="screen" ns="$(arg camera_namespace)" required="true">
+	<param name="resolution" value="$(arg resolution)" unless="$(eval resolution>3)"/>
+	<param name="frame_rate" value="$(arg frame_rate)"/>
+	<param name="config_file_location" value="$(arg config_file_location)"/>
+	<param name="show_image" value="$(arg show_image)"/>
+	<param name="left_frame_id" value="left_frame"/>
+	<param name="right_frame_id" value="right_frame"/>
+	<param name="use_zed_config" value="$(arg use_zed_config)"/>
+	<param name="device_id" value="$(arg device_id)"/>
+	<param name="encoding" value="$(arg encoding)"/>
+</node>
+
+<!-- <node pkg="tf" type="static_transform_publisher" name="static_tf_1" args="0.25 0 0.4 0 0 0 1 base_link left_frame 30"/> -->
+<!-- <node pkg="tf" type="static_transform_publisher" name="static_tf_2" args="0 0.120 0 0 0 0 1 left_frame right_frame 30"/> -->
+
+</launch>

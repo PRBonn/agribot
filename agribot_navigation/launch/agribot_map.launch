@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+ <arg name="map_file" default="$(find agribot_navigation)/maps/map.yaml"/>
+
+ <!--- Run map_server -->
+ <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)"/>
+
+ <!-- Run fake localization compatible with AMCL output -->
+<!--   <node pkg="fake_localization" type="fake_localization" name="fake_localization" clear_params="true" output="screen">
+     <remap from="base_pose_ground_truth" to="/odometry/raw" />
+     <param name="global_frame_id" value="/map" />
+  </node> -->
+
+</launch>

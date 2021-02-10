@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base"  output="screen">
+    
+    <rosparam file="$(find agribot_navigation)/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find agribot_navigation)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find agribot_navigation)/params/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find agribot_navigation)/params/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find agribot_navigation)/params/base_local_planner_params.yaml" command="load" />
+
+    <rosparam file="$(find agribot_navigation)/params/move_base_params.yaml" command="load" />
+
+    <rosparam file="$(find agribot_navigation)/params/costmap.yaml" command="load" ns="/costmap_node/costmap" />
+    
+    <param name="base_global_planner" type="string" value="navfn/NavfnROS"/>
+<!--     <param name="base_global_planner" value="agribot_global_planner/AgribotGlobalPlanner"/>
+ -->
+    <param name="base_local_planner" value="agribot_local_planner/AgribotLocalPlanner"/>
+    
+    <!--param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/-->
+
+    <!--param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+    <param name="controller_frequency" value="10.0" /-->
+    <!--param name="base_local_planner" value="simple_local_planner/SimpleLocalPlanner" /-->
+    <!--remap from="sensor_pose_odo" to="/odometry/raw" /-->
+    <remap from="sensor_pose_odo" to="/mocap_odom" />
+    <remap from="cmd_vel" to="/cmd_vel" />
+    <remap from="map" to="/map" />
+
+  </node>
+
+  <!--node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen"/-->
+  <!--node name="rqt_plot" pkg="rqt_plot" type="rqt_plot" output="screen"/-->
+</launch>
+

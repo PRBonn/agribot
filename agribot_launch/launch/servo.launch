@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="rosserial_python" type="serial_node.py" name="agribot_servo">
+    <param name="port" value="/dev/servo"/>
+  </node>
+</launch>
+

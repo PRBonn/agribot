@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<!-- Run imu via rosserial -->
+<include file="$(find agribot_launch)/launch/imu.launch"/>	
+
+<!-- Run imu via rosserial -->
+<!-- <include file="$(find agribot_launch)/launch/camera_umd.launch"/> -->
+  
+<!-- Run imu via rosserial -->
+<!--include file="$(find agribot_launch)/launch/xsens_driver.launch"/-->	
+
+<!--gps-->
+<include file="$(find agribot_launch)/launch/gps.launch"/>
+
+<!--Stereo camera-->
+<!--include file="$(find zed-ros-wrapper)/launch/zed.launch"/-->
+
+<!--px4flow-->
+<!--include file="$(find agribot_launch)/launch/px4flow.launch"/-->
+
+</launch>

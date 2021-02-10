@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+
+ <!--Drive robot rear wheels (servos)-->
+ <include file="$(find agribot_launch)/launch/servo.launch"/>
+  
+ <!--Drive robot-->
+<!--  <include file="$(find agribot_launch)/launch/drive.launch"/> -->
+  
+<!--Motor driver -->
+ <include file="$(find md49_base_controller)/launch/md49_base_controller_local.launch"/>
+ 
+ <!--Run Sensors -->
+ <include file="$(find agribot_launch)/launch/sensors.launch"/>
+
+ <include file="$(find agribot_description)/launch/display.launch"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="link2_broadcaster" args="0 0 0 0 0 0 map odom 100" />
+
+</launch>

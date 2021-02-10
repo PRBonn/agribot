@@ -1,0 +1,7 @@
+<library path="lib/libagribot_local_planner">
+  <class name="agribot_local_planner/AgribotLocalPlanner" type="agribot_local_planner::AgribotLocalPlanner" base_class_type="nav_core::BaseLocalPlanner">
+    <description>
+      Agribot move_base local planner.
+    </description>
+  </class>
+</library>

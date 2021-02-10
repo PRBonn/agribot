@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This launchfile starts nodes for robot_localization-->
+<launch>
+
+  <include file="$(find agribot_navigation)/launch/agribot_map.launch"/>
+
+  <include file="$(find agribot_navigation)/launch/agribot_move.launch"/>
+  
+  <!--include file="$(find agribot_launch)/launch/localization.launch"/-->
+
+  <!--node pkg="rqt_reconfigure" type="rqt_reconfigure" respawn="false" name="rqt_reconfigure"/-->
+
+</launch>

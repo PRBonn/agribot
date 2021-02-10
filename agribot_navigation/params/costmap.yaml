@@ -1,0 +1,6 @@
+plugins: 
+    - {name: static_map,       type: "costmap_2d::StaticLayer"}
+update_frequency: 5.0
+publish_frequency: 10.0
+
+footprint: [[-0.5, -0.5], [-0.325, 0.5], [0.5, 0.5], [0.5, 0.0], [0.5, -0.5]]

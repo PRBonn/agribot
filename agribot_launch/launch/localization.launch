@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="rviz" name="rviz" type="rviz"/>
+
+  <!--node pkg="rosbag" name="rosbagplay" type="play"/-->
+
+  <include file="$(find rosbag_change)/launch/rosbag_change.launch"/>
+  
+  <!--include file="$(find agribot_description)/launch/display.launch"/-->
+    
+  <include file="$(find agribot_localization)/launch/localization.launch"/>
+
+  
+</launch>
