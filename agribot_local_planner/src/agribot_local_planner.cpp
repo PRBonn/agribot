@@ -14,7 +14,9 @@ namespace agribot_local_planner {
 constexpr double kControllerFrequency = 20.0;
 
 AgribotLocalPlanner::AgribotLocalPlanner()
-    : initialized_(false), goal_reached_(false) {}
+    : initialized_(false), goal_reached_(false) {
+
+}
 
 AgribotLocalPlanner::~AgribotLocalPlanner() {
   if (dsrv_) {
@@ -47,7 +49,7 @@ void AgribotLocalPlanner::reconfigureCB(AgribotLocalPlannerConfig& config,uint32
   k_d_ang_ = config.k_d_ang;
 }
 
-void AgribotLocalPlanner::initialize(std::string name,tf::TransformListener* tf,costmap_2d::Costmap2DROS* costmap_ros) {
+void AgribotLocalPlanner::initialize(std::string name,tf2_ros::Buffer* tf,costmap_2d::Costmap2DROS* costmap_ros) {
   if (!initialized_) {
     ros::NodeHandle nh = ros::NodeHandle("~/" + name);
     tf_ = tf;
@@ -282,10 +284,15 @@ bool AgribotLocalPlanner::computeVelocityCommands(geometry_msgs::Twist& cmd_vel)
   }
 
   // invoking robot pose and orientaiton
-  tf::Stamped<tf::Pose> global_pose;
+  // tf::Stamped<tf::Pose> global_pose; // use tf2
+  geometry_msgs::PoseStamped _g;
+  geometry_msgs::PoseStamped& global_pose = _g;
+  global_pose.header.stamp = ros::Time(0);
   costmap_ros_->getRobotPose(global_pose);
-  robot_curr_pose = global_pose.getOrigin();
-  robot_curr_orien = tf::getYaw(global_pose.getRotation());
+  robot_curr_pose[0] = global_pose.pose.position.x; //global_pose.getOrigin();
+  robot_curr_pose[1] = global_pose.pose.position.y; //global_pose.getOrigin();
+  robot_curr_pose[2] = global_pose.pose.position.z; //global_pose.getOrigin();
+  robot_curr_orien = tf::getYaw(global_pose.pose.orientation);
   //********************************************************************************
   // odometry observation - getting robot velocities in robot frame
   nav_msgs::Odometry base_odom;
@@ -351,4 +358,5 @@ bool AgribotLocalPlanner::computeVelocityCommands(geometry_msgs::Twist& cmd_vel)
 
   return true;
 }
+
 };  // namespace agribot_local_planner

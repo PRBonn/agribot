@@ -31,7 +31,7 @@ class AgribotLocalPlanner : public nav_core::BaseLocalPlanner {
   ~AgribotLocalPlanner();
 
   // base local planner plugin functions
-  void initialize(std::string name, tf::TransformListener *tf,
+  void initialize(std::string name, tf2_ros::Buffer *tf,
                   costmap_2d::Costmap2DROS *costmap_ros);
 
   bool setPlan(const std::vector<geometry_msgs::PoseStamped> &global_plan);
@@ -61,13 +61,12 @@ class AgribotLocalPlanner : public nav_core::BaseLocalPlanner {
 
   // utils
   void getTransformedPosition(geometry_msgs::PoseStamped &pose, double *x,double *y, double *theta) {
-    geometry_msgs::PoseStamped ps;
-    pose.header.stamp = ros::Time(0);  // last transformation available
-    tf_->transformPose(base_frame_, pose, ps);
-    *x = ps.pose.position.x;
-    *y = ps.pose.position.y;
-    *theta = tf::getYaw(ps.pose.orientation);
-    //std::cout << base_frame_ << " x: "<< *x << " y: "<< *y << " ,th: " << *theta << std::endl;
+
+    std::string &_base_frame = base_frame_;
+    geometry_msgs::TransformStamped ps = tf_->lookupTransform( _base_frame, pose.header.frame_id, ros::Time(0)  );
+    *x = ps.transform.translation.x;
+    *y = ps.transform.translation.y;
+    *theta = tf::getYaw(ps.transform.rotation);
   }
 
   costmap_2d::Costmap2DROS* costmap_ros_; ///< @brief The ROS wrapper for the costmap the controller will use
@@ -77,7 +76,8 @@ class AgribotLocalPlanner : public nav_core::BaseLocalPlanner {
    double robot_curr_orien;
   std::vector<double> final_orientation;
 
-  tf::TransformListener *tf_;
+  tf2_ros::Buffer* tf_;
+
   base_local_planner::OdometryHelperRos *odom_helper_;
   // publishers
   ros::Publisher target_pose_pub_, curr_pose_pub;
