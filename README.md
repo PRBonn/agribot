@@ -54,6 +54,13 @@ if you use this project in your recent works please reference to our paper by:
 
 ```bash
 
+@article{ahmadi2021towards,
+  title={Towards Autonomous Crop-Agnostic Visual Navigation in Arable Fields},
+  author={Ahmadi, Alireza and Halstead, Michael and McCool, Chris},
+  journal={arXiv preprint arXiv:2109.11936},
+  year={2021}
+}
+
 @article{ahmadi2019visual,
   title={Visual Servoing-based Navigation for Monitoring Row-Crop Fields},
   author={Ahmadi, Alireza and Nardi, Lorenzo and Chebrolu, Nived and Stachniss, Cyrill},
