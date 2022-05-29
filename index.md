@@ -1,37 +1,78 @@
-## Welcome to GitHub Pages
+## Update
+1) remove tf dependencies and included tf2 similar to costmap2D and ros nav core packages. 
+2) makes on Melodic and further
 
-You can use the [editor on GitHub](https://github.com/PRBonn/agribot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# AgriBot - Agricultural Mobile Robot Platform
 
-### Markdown
+---
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Youtube video
 
-```markdown
-Syntax highlighted code block
+<div align="center">
+	<img src="/doc/images/cadf.png" alt="cadf" width="300" title="cadf"/>
+	<img src="/doc/images/robotoutside.png" alt="robotoutside" width="300" title="robotoutside"/>
+	<img src="/doc/images/oldrobot.png" alt="oldrobot" width="200" title="oldrobot"/>
+</div>
 
-# Header 1
-## Header 2
-### Header 3
+---
+<div align="center">
+	
+[![YouTube Demo](https://i.ytimg.com/vi/aT82Srq7nwY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDEPWZRb-g4CKJ60QpU-LYVLRDMsw)](https://youtu.be/aT82Srq7nwY?t=2)
+	
+</div>
 
-- Bulleted
-- List
+## Project mission
 
-1. Numbered
-2. List
+The mission of the project is to build an agricultural robot (AgriBot) from
+scratch with the aim of serving as a data-recording platform in fields.
+For further information about the design and purpose of the robot, please follow the [About the AgriBot Project page](https://github.com/PRBonn/agribot/blob/master/doc/about.md)
 
-**Bold** and _Italic_ and `Code` text
+---
 
-[Link](url) and ![Image](src)
+## Getting Started
+For easily bringing up the robot and recording data refer to [Easy bring up & Record Data](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md) which provides step-by-step
+instructions to run the robot.
+
+---
+
+## Main Sections
+- [Easy Bring up & Record Data :](https://github.com/PRBonn/agribot/blob/master/doc/recorddata.md)
+  	Instructions for running the robot and recording the sensor data to a bagfile.
+- [AgriBot Software :](https://github.com/PRBonn/agribot/blob/master/doc/api.md)
+	Details about different packages written for the platform like navigation, localization, base controller, etc.
+- [Mechanical Design :](https://github.com/PRBonn/agribot/blob/master/doc/mec.md)
+	Detail about how mechanical structure has been designed and improved during the project time.
+- [Electrical  Design :](https://github.com/PRBonn/agribot/blob/master/doc/elec.md)
+	Electrical schematics and descriptions about connections and wiring protocols used in the robot.
+- [Debug:](https://github.com/PRBonn/agribot/blob/master/doc/debug.md)
+	Debug procedures for common problems.
+
+---
+## Citation 
+if you use this project in your recent works please reference to our paper by:
+
+```bash
+
+@article{ahmadi2021towards,
+  title={Towards Autonomous Crop-Agnostic Visual Navigation in Arable Fields},
+  author={Ahmadi, Alireza and Halstead, Michael and McCool, Chris},
+  journal={arXiv preprint arXiv:2109.11936},
+  year={2021}
+}
+
+@inproceedings{ahmadi2020visual,
+  title={Visual servoing-based navigation for monitoring row-crop fields},
+  author={Ahmadi, Alireza and Nardi, Lorenzo and Chebrolu, Nived and Stachniss, Cyrill},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={4920--4926},
+  year={2020},
+  organization={IEEE}
+}
 ```
+---
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Maintenance
+This repository is maintained by [Alireza Ahmadi](https://github.com/alirezaahmadi). In case of any problems, please don't hesitate to contact me.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PRBonn/agribot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ Alireza.Ahmadi@uni-bonn.de   
