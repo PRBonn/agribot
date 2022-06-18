@@ -48,6 +48,18 @@ instructions to run the robot.
 - [Debug:](https://github.com/PRBonn/agribot/blob/master/doc/debug.md)
 	Debug procedures for common problems.
 
+
+---
+
+<div align="center">
+  
+[![paypal](https://pics.paypal.com/00/s/NGRhNWNlODUtMzZlOS00MjJhLTg2NDEtMzNiNzczMTZkMDU4/file.PNG)](https://www.paypal.com/donate/?hosted_button_id=23TQAZ9MSLAUU)
+
+</div>
+
+---
+
+
 ---
 ## Citation 
 if you use this project in your recent works please reference to our paper by:
